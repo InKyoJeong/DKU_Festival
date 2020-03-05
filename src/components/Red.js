@@ -1,18 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import Timer from "./Timer";
 function Red() {
   return (
-    <div id="red">
-      <RR />
-    </div>
+    <Container id="red">
+      <Timer />
+    </Container>
   );
 }
-const RR = styled.div`
-  padding: 5px;
-  background-color: black;
-  opacity: 0.1;
-  width: 100vw;
+
+const Container = styled.div`
   height: 100vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export default Red;

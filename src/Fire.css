@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background: #000;
-  overflow: hidden;
 }
 
 .pyro > .before,
 .pyro > .after {
+  z-index: 3;
   position: absolute;
   width: 5px;
   height: 5px;

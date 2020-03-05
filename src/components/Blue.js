@@ -3,12 +3,11 @@ import styled from "styled-components";
 function Blue() {
   return (
     <div id="blue">
-      <GG />
+      <KK />
     </div>
   );
 }
-const GG = styled.div`
-  padding: 5px;
+const KK = styled.div`
   background-color: blue;
   width: 100vw;
   height: 100vh;
