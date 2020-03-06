@@ -1,16 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import LineUp from "./LineUp";
 function Blue() {
   return (
-    <div id="blue">
-      <KK />
-    </div>
+    <Container id="blue">
+      <LineUp />
+    </Container>
   );
 }
-const KK = styled.div`
-  background-color: blue;
-  width: 100vw;
+
+const Container = styled.div`
   height: 100vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export default Blue;

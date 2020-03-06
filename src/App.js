@@ -5,12 +5,14 @@ import Blue from "./components/Blue";
 import Header from "./components/Header";
 import Fire from "./Fire";
 import Footer from "./components/Footer";
+
 function App() {
   return (
     <Fragment>
       <GlobalStyles />
       <Fire />
       <Header />
+
       <Red />
       <Blue />
       <Footer />

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+// import SwitchDark from "./switch/Switch";
 
 const HeaderContainer = styled.header`
   width: 100%;
@@ -8,7 +9,19 @@ const HeaderContainer = styled.header`
   flex-direction: row;
   display: flex;
   align-items: center;
-  background-color: black;
+  background: #4ecdc4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #9889b4,
+    #5889c2,
+    #0441b3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    -45deg,
+    #9889b4,
+    #5889c2,
+    #0441b3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.8;
   position: fixed;
   top: 0;
@@ -53,7 +66,9 @@ export default () => (
     </TitleContainer>
     <MenuContainer>
       <Item href="#red">레드</Item>
+      <Item href="#red2">레드2</Item>
       <Item href="#blue">파랑</Item>
     </MenuContainer>
+    {/* <SwitchDark /> */}
   </HeaderContainer>
 );

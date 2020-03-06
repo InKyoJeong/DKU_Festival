@@ -16,20 +16,20 @@ const FootContainer = styled.div`
 `;
 const Item = styled.div`
   color: gray;
+  font-size: 14px;
 `;
 const ItemLink = styled.a`
   text-decoration: none;
   color: white;
   font-size: 18px;
+  padding-left: 5px;
 `;
 
 export default () => (
   <FootContainer>
     <Item>
-      Copyright © 2020,{" "}
-      <ItemLink href="https://github.com/InKyoJeong/DKU_Festival">
-        InKyo Jeong
-      </ItemLink>
+      Copyright © {new Date().getFullYear()},
+      <ItemLink href="https://github.com/InKyoJeong">InKyo Jeong</ItemLink>
     </Item>
   </FootContainer>
 );
