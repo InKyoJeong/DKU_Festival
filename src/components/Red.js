@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Timer from "./Timer";
+import LineUp from "./LineUp";
 function Red() {
   return (
     <>
@@ -9,7 +10,7 @@ function Red() {
       </Container>
 
       <Container id="red2">
-        <Timer />
+        <LineUp />
       </Container>
     </>
   );

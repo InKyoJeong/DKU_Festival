@@ -4,7 +4,7 @@ import styled from "styled-components";
 const FootContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: skyblue;
+  background-color: black;
   height: 50px;
   width: 100%;
   display: flex;
@@ -16,12 +16,12 @@ const FootContainer = styled.div`
 `;
 const Item = styled.div`
   color: gray;
-  font-size: 14px;
+  font-size: 13px;
 `;
 const ItemLink = styled.a`
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   padding-left: 5px;
 `;
 

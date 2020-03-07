@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-// import SwitchDark from "./switch/Switch";
 
 const HeaderContainer = styled.header`
   width: 100%;
@@ -69,6 +68,5 @@ export default () => (
       <Item href="#red2">레드2</Item>
       <Item href="#blue">파랑</Item>
     </MenuContainer>
-    {/* <SwitchDark /> */}
   </HeaderContainer>
 );
