@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 const globalStyles = createGlobalStyle`
+    
+
    *{
     box-sizing: border-box;
     text-decoration: none;
@@ -9,7 +11,7 @@ const globalStyles = createGlobalStyle`
    
    }
    body{
-       background-color:white
+       background-color:white;
    }
 `;
 

@@ -40,7 +40,7 @@ const Item = styled(AnchorLink)`
   @media screen and (max-width: 768px) {
     font-size: 18px;
   }
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 480px) {
     font-size: 16px;
   }
   &:hover {
@@ -52,7 +52,7 @@ const MenuContainer = styled.div`
   align-items: center;
   margin-left: auto; /* 오른쪽 정렬 */
   padding-right: 30px;
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 480px) {
     padding-right: 5px;
   }
 `;
@@ -76,7 +76,7 @@ const Logo = styled(AnchorLink)`
   @media screen and (max-width: 768px) {
     font-size: 18px;
   }
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 480px) {
     font-size: 16px;
   }
 `;
