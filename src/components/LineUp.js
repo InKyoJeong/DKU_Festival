@@ -14,7 +14,12 @@ const LineUpContainer = styled.div`
   flex-direction: column;
   justify-content: center;
 `;
-const Day = styled.div``;
+const Day = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: red;
+`;
 
 const LineUp = () => (
   <LineUpContainer>
