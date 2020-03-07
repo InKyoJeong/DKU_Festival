@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import LineUp from "./LineUp";
+
 function Blue() {
-  return <Container id="blue">{/* <LineUp /> */}</Container>;
+  return <Container id="blue">dd</Container>;
 }
 
 const Container = styled.div`

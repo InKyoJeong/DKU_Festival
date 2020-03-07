@@ -4,6 +4,7 @@ import Red from "./components/Red";
 import Blue from "./components/Blue";
 import Header from "./components/Header";
 import Fire from "./Fire";
+
 import Footer from "./components/Footer";
 
 function App() {

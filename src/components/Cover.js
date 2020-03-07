@@ -1,15 +1,23 @@
 import React from "react";
 import bg from "../assets/festa2.jpeg";
-
 import styled from "styled-components";
 
 function Cover() {
   return (
     <>
-      <Background />
+      <Background>
+        <GG>dgjgjgjgjgjgjgjgjgjgjd</GG>
+      </Background>
     </>
   );
 }
+const GG = styled.div`
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 600px; */
+`;
 
 const Background = styled.div`
   background-image: linear-gradient(
@@ -36,6 +44,8 @@ const Background = styled.div`
       url(${bg});
     width: 100%;
     height: 400px;
+    position: absolute;
+    bottom: 0;
   }
 
   @media screen and (max-width: 480px) {
@@ -46,9 +56,11 @@ const Background = styled.div`
       ),
       url(${bg});
     /* background-position: center bottom; */
-
     width: 100%;
     height: 200px;
+
+    /* position: absolute;
+    bottom: 0; */
   }
 `;
 

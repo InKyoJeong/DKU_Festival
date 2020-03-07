@@ -27,6 +27,7 @@ const HeaderContainer = styled.header`
   left: 0;
   z-index: 4;
   @media screen and (max-width: 768px) {
+    height: 50px;
   }
 `;
 
@@ -55,24 +56,23 @@ const MenuContainer = styled.div`
     padding-right: 5px;
   }
 `;
-const TitleContainer = styled.div`
-  flex: none;
-`;
+
 const LogoContainer = styled.div`
   /* background-color: blue; */
-  padding: 10px 2px;
-  margin-left: 5px;
-  &:hover {
-    background-color: black;
-    transition: ease-in-out 0.3s;
-  }
 `;
 
 const Logo = styled(AnchorLink)`
+  margin-left: 5px;
+  &:hover {
+    background-color: black;
+    padding: 10px 10px;
+    transition: ease-in-out 0.2s;
+  }
   color: white;
   padding: 0px 10px;
   font-size: 21px;
   font-weight: bold;
+  text-shadow: 2px 2px 2px black;
   @media screen and (max-width: 768px) {
     font-size: 18px;
   }
@@ -86,7 +86,6 @@ export default () => (
       <Logo href="#main">DKU FESTIVAL</Logo>
     </LogoContainer>
     <MenuContainer>
-      <Item href="#main">레드</Item>
       <Item href="#red2">라인업</Item>
       <Item href="#blue">파랑</Item>
     </MenuContainer>

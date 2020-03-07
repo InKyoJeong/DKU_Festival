@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import Cover from "./Cover";
 import LineUp from "./LineUp";
+
 function Red() {
   return (
     <>
-      <Container id="main">
+      <Container1 id="main">
         <Cover />
-      </Container>
+      </Container1>
 
       <Container id="red2">
         <LineUp />
@@ -16,9 +17,16 @@ function Red() {
   );
 }
 
-const Container = styled.div`
+const Container1 = styled.div`
   height: 100vh;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+const Container = styled.div`
+  height: 100vh;
+  /* background-color: black; */
   display: flex;
   justify-content: center;
   align-items: center;
