@@ -5,8 +5,6 @@ import Blue from "./components/Blue";
 import Header from "./components/Header";
 import Fire from "./Fire";
 import Footer from "./components/Footer";
-// import "./App.css";
-import styled from "styled-components";
 
 function App() {
   return (

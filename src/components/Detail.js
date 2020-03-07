@@ -6,29 +6,29 @@ import styled from "styled-components";
 const SingerContainer = styled.div`
   /* display: flex; */
   justify-content: center;
-  color: white;
 `;
 
-const Day = styled.div`
-  /* justify-content: center; */
-  text-align: center;
-`;
-const Picture = styled.div``;
 const PictureItem = styled.img`
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
 `;
 
 const Name = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 `;
-const NameItem = styled.div``;
+const NameItem = styled.div`
+  /* display: flex;
+  justify-content: center;
+  text-align: center; */
+`;
 
 const Detail = ({ name, image }) => (
   <SingerContainer>
     <PictureItem src={image} />
-    <Name>{name}</Name>
+    <Name>
+      <NameItem>{name}</NameItem>
+    </Name>
   </SingerContainer>
 );
 
