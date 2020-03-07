@@ -9,23 +9,6 @@ class Clock extends React.Component {
     seconds: "00"
   };
   interValSet;
-  componentDidMount() {
-    const until = new Date("2020-5-10");
-    this.interValSet = setInterval(() => {
-      this.count(until);
-    }, 1000);
-  }
-  render() {
-    const { days, hours, minutes, seconds } = this.state;
-    return (
-      <ClockPresenter
-        days={days}
-        hours={hours}
-        minutes={minutes}
-        seconds={seconds}
-      />
-    );
-  }
 
   count = toDate => {
     const now = new Date();
@@ -61,6 +44,23 @@ class Clock extends React.Component {
       });
     }
   };
+  componentDidMount() {
+    const until = new Date("2020-5-10");
+    this.interValSet = setInterval(() => {
+      this.count(until);
+    }, 1000);
+  }
+  render() {
+    const { days, hours, minutes, seconds } = this.state;
+    return (
+      <ClockPresenter
+        days={days}
+        hours={hours}
+        minutes={minutes}
+        seconds={seconds}
+      />
+    );
+  }
 }
 
 export default Clock;

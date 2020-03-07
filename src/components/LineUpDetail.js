@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const SingerContainer = styled.div`
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 3.5px;
 
   box-shadow: 3px 4px 6px -1px rgba(0, 0, 0, 0.5),
     0 2px 4px -1px rgba(0, 0, 0, 0.2);
@@ -20,14 +20,14 @@ const SingerContainer = styled.div`
   }
 `;
 const PictureContainer = styled.div`
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 3.5px;
+  border-top-right-radius: 3.5px;
 `;
 const PictureItem = styled.img`
   width: 210px;
   height: 210px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 3.5px;
+  border-top-right-radius: 3.5px;
   vertical-align: middle;
   @media screen and (max-width: 480px) {
     width: 125px;
@@ -36,8 +36,8 @@ const PictureItem = styled.img`
 `;
 
 const Name = styled.div`
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 3.5px;
+  border-bottom-right-radius: 3.5px;
   display: flex;
   justify-content: center;
   background-color: blue;

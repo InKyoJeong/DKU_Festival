@@ -43,8 +43,8 @@ const Background = styled.div`
       url(${bg});
     width: 100%;
     height: 400px;
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    bottom: 0px;
   }
 
   @media screen and (max-width: 480px) {

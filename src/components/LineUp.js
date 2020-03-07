@@ -52,7 +52,6 @@ const Title = styled.div`
   font-weight: bold;
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.59);
   color: white;
-
   background: -webkit-linear-gradient(
     90deg,
     #664ca1,
@@ -68,6 +67,7 @@ const Title = styled.div`
   width: 100%;
   padding: 0px 100px;
   height: 100%;
+
   @media screen and (max-width: 480px) {
     margin: 20px 0px;
     font-size: 23px;
@@ -75,6 +75,19 @@ const Title = styled.div`
     height: 50px;
     padding: 5px 0px;
     border-radius: 8px;
+    animation: moveY infinite 3s;
+    -webkit-animation: moveY infinite 3s;
+    @keyframes moveY {
+      0% {
+        transform: rotateY(01turn);
+      }
+      50% {
+        transform: rotateY(0.93turn);
+      }
+      100% {
+        transform: rotateY(01turn);
+      }
+    }
   }
 `;
 const Container = styled.div`

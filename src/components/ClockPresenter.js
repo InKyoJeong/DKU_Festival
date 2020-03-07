@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-// state가 필요없는 컴포넌트의 경우 class형이 아니여도 됨
+
 const ClockPresenter = ({ days, hours, minutes, seconds, progress }) => (
   <ClockContainer>
     <FestaTitle>Dankook Festival</FestaTitle>
@@ -53,6 +53,7 @@ const FestaTitle = styled.div`
       transform: rotate(0deg);
     }
   }
+
   @media screen and (max-width: 480px) {
     font-size: 50px;
     margin-bottom: 40px;
@@ -95,6 +96,7 @@ const TimeContainer = styled.div`
   width: 750px;
   font-size: 70px;
   margin-top: 20px;
+
   @media screen and (max-width: 480px) {
     font-size: 30px;
     width: 77.5%;
@@ -110,8 +112,13 @@ const ClockContainer = styled.div`
   /* background-color: red; */
   padding-top: 200px;
   font-size: 60px;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 30px;
+    padding-top: 20px;
+    position: relative;
+    top: -70%;
+  }
+  @media screen and (max-width: 480px) {
     padding-top: 0px;
     position: relative;
     top: -180%;
@@ -129,11 +136,10 @@ const Seconds = styled.h1`
 `;
 
 ClockPresenter.propTypes = {
-  days: PropTypes.number.isRequired,
-  hours: PropTypes.number.isRequired,
-  minutes: PropTypes.number.isRequired,
-  seconds: PropTypes.number.isRequired,
-  progress: PropTypes.string
+  days: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  hours: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  minutes: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  seconds: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
 export default ClockPresenter;
