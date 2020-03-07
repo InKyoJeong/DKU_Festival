@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 const SingerContainer = styled.div`
   justify-content: center;
+  border-radius: 5px;
+
   box-shadow: 3px 4px 6px -1px rgba(0, 0, 0, 0.5),
     0 2px 4px -1px rgba(0, 0, 0, 0.2);
   &:not(:last-child) {
@@ -17,18 +19,25 @@ const SingerContainer = styled.div`
     }
   }
 `;
-const PictureContainer = styled.div``;
+const PictureContainer = styled.div`
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+`;
 const PictureItem = styled.img`
   width: 210px;
   height: 210px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   vertical-align: middle;
   @media screen and (max-width: 480px) {
-    width: 140px;
-    height: 140px;
+    width: 125px;
+    height: 125px;
   }
 `;
 
 const Name = styled.div`
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   display: flex;
   justify-content: center;
   background-color: blue;
@@ -46,7 +55,7 @@ const NameItem = styled.div`
   }
 `;
 
-const Detail = ({ name, image }) => (
+const LineUpDetail = ({ name, image }) => (
   <SingerContainer>
     <PictureContainer>
       <PictureItem src={image} />
@@ -57,9 +66,9 @@ const Detail = ({ name, image }) => (
   </SingerContainer>
 );
 
-Detail.propTypes = {
+LineUpDetail.propTypes = {
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired
 };
 
-export default Detail;
+export default LineUpDetail;

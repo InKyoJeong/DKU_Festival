@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
 import GlobalStyles from "./Global";
-import Red from "./components/Red";
-import Blue from "./components/Blue";
+import Home from "./components/Home";
+import Promo from "./components/Promo";
+import Schedule from "./components/Schedule";
 import Header from "./components/Header";
 import Fire from "./Fire";
+import "./App.css";
 
 import Footer from "./components/Footer";
 
@@ -12,10 +14,11 @@ function App() {
     <Fragment>
       <GlobalStyles />
       <Fire />
-      <Header />
 
-      <Red />
-      <Blue />
+      <Header />
+      <Home />
+      <Schedule />
+      <Promo />
       <Footer />
     </Fragment>
   );

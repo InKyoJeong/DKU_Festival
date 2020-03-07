@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-function Blue() {
-  return <Container id="blue">dd</Container>;
+function Promo() {
+  return <Container id="promo">dd</Container>;
 }
 
 const Container = styled.div`
@@ -13,4 +13,4 @@ const Container = styled.div`
   align-items: center;
 `;
 
-export default Blue;
+export default Promo;

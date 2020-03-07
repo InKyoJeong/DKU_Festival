@@ -3,14 +3,14 @@ import styled from "styled-components";
 import Cover from "./Cover";
 import LineUp from "./LineUp";
 
-function Red() {
+function Home() {
   return (
     <>
       <Container1 id="main">
         <Cover />
       </Container1>
 
-      <Container id="red2">
+      <Container id="line">
         <LineUp />
       </Container>
     </>
@@ -32,4 +32,4 @@ const Container = styled.div`
   align-items: center;
 `;
 
-export default Red;
+export default Home;

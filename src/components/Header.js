@@ -8,20 +8,19 @@ const HeaderContainer = styled.header`
   flex-direction: row;
   display: flex;
   align-items: center;
-  background: #4ecdc4; /* fallback for old browsers */
+  background: #e55d87; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    -45deg,
-    #9889b4,
-    #5889c2,
-    #0441b3
+    to right,
+    #6a3093,
+    #e55d87
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    -45deg,
-    #9889b4,
-    #5889c2,
-    #0441b3
+    to right,
+    #6a3093,
+    #e55d87
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  opacity: 0.8;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
   position: fixed;
   top: 0;
   left: 0;
@@ -63,6 +62,7 @@ const LogoContainer = styled.div`
 
 const Logo = styled(AnchorLink)`
   margin-left: 5px;
+
   &:hover {
     background-color: black;
     padding: 10px 10px;
@@ -86,8 +86,9 @@ export default () => (
       <Logo href="#main">DKU FESTIVAL</Logo>
     </LogoContainer>
     <MenuContainer>
-      <Item href="#red2">라인업</Item>
-      <Item href="#blue">파랑</Item>
+      <Item href="#line">라인업</Item>
+      <Item href="#schedule">일정</Item>
+      <Item href="#promo">부스</Item>
     </MenuContainer>
   </HeaderContainer>
 );

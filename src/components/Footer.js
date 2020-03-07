@@ -4,15 +4,16 @@ import styled from "styled-components";
 const FootContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: black;
+  /* background-color: black; */
   height: 50px;
   width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  /* position: fixed;
-  bottom: 0; */
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* opacity: 0.5; */
 `;
 const Item = styled.div`
   color: gray;
@@ -20,7 +21,7 @@ const Item = styled.div`
 `;
 const ItemLink = styled.a`
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 15px;
   padding-left: 5px;
 `;

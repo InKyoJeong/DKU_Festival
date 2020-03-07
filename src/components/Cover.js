@@ -1,23 +1,22 @@
 import React from "react";
 import bg from "../assets/festa2.jpeg";
 import styled from "styled-components";
-
+import Clock from "./Clock";
 function Cover() {
   return (
     <>
       <Background>
-        <GG>dgjgjgjgjgjgjgjgjgjgjd</GG>
+        <Clock />
       </Background>
     </>
   );
 }
-const GG = styled.div`
-  color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-bottom: 600px; */
-`;
+// const GG = styled.div`
+//   color: red;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `;
 
 const Background = styled.div`
   background-image: linear-gradient(
@@ -44,7 +43,7 @@ const Background = styled.div`
       url(${bg});
     width: 100%;
     height: 400px;
-    position: absolute;
+    position: relative;
     bottom: 0;
   }
 
@@ -59,8 +58,8 @@ const Background = styled.div`
     width: 100%;
     height: 200px;
 
-    /* position: absolute;
-    bottom: 0; */
+    position: absolute;
+    /* bottom: 0px; */
   }
 `;
 

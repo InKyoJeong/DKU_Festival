@@ -1,11 +1,11 @@
 import React from "react";
-import Detail from "./Detail";
+import LineUpDetail from "./LineUpDetail";
 import styled from "styled-components";
 
-import TT from "../assets/tt.jpeg";
-import GF from "../assets/gf.png";
-import HA from "../assets/ha.jpg";
-import IU from "../assets/iu.jpg";
+import TT from "../assets/images/tt.jpeg";
+import GF from "../assets/images/gf.png";
+import HA from "../assets/images/ha.jpg";
+import IU from "../assets/images/iu.jpg";
 
 const DetailContainer = styled.div`
   display: flex;
@@ -134,29 +134,29 @@ const LineUp = () => (
     <LineUpContainer>
       <DetailContainer>
         <Day>5/10</Day>
-        <Container style={{ borderRadius: `8px` }}>
-          <Detail name="태연" image={TT} />
-          <Detail name="아이유" image={IU} />
+        <Container>
+          <LineUpDetail name="태연" image={TT} />
+          <LineUpDetail name="아이유" image={IU} />
         </Container>
       </DetailContainer>
       <DetailContainer>
         <Day>5/11</Day>
         <Container>
-          <Detail name="여자친구" image={GF} />
-          <Detail name="현아" image={HA} />
+          <LineUpDetail name="여자친구" image={GF} />
+          <LineUpDetail name="현아" image={HA} />
         </Container>
       </DetailContainer>
       <DetailContainer>
         <Day>5/12</Day>
         <Container>
-          <Detail name="셋째날가수" image={TT} />
-          <Detail name="셋째날가수2" image={TT} />
-          <Detail name="셋째날가수2" image={TT} />
+          <LineUpDetail name="셋째날가수" image={TT} />
+          <LineUpDetail name="셋째날가수2" image={TT} />
+          <LineUpDetail name="셋째날가수2" image={TT} />
         </Container>
         {/* <Container>
         <Detail name="셋째날가수2" image={TT} />
         <Detail name="셋째날가수2" image={TT} />
-      </Container>  만약 4명이상이면 */}
+      </Container>  만약 4명이상이면 Container로 묶어서 내리기*/}
       </DetailContainer>
     </LineUpContainer>
   </AllContainer>
