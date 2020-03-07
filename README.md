@@ -4,6 +4,12 @@ React.js를 이용한 단국대학교 축제 안내 사이트입니다.
 
 <!-- [작동 사진] -->
 
+## Todo
+
+- [ ] Media Screen , Mixin
+- [ ] Line Up
+- [ ] Party Promo
+
 ## Install
 
 ```

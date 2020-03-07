@@ -35,6 +35,7 @@ const Item = styled(AnchorLink)`
   color: white;
   padding: 0px 10px;
   font-size: 21px;
+  font-weight: bold;
   @media screen and (max-width: 768px) {
     font-size: 18px;
   }
@@ -42,7 +43,7 @@ const Item = styled(AnchorLink)`
     font-size: 16px;
   }
   &:hover {
-    color: red;
+    color: black;
     transition: ease-in-out 0.3s;
   }
 `;
@@ -57,15 +58,36 @@ const MenuContainer = styled.div`
 const TitleContainer = styled.div`
   flex: none;
 `;
+const LogoContainer = styled.div`
+  /* background-color: blue; */
+  padding: 10px 2px;
+  margin-left: 5px;
+  &:hover {
+    background-color: black;
+    transition: ease-in-out 0.3s;
+  }
+`;
 
+const Logo = styled(AnchorLink)`
+  color: white;
+  padding: 0px 10px;
+  font-size: 21px;
+  font-weight: bold;
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 420px) {
+    font-size: 16px;
+  }
+`;
 export default () => (
   <HeaderContainer>
-    <TitleContainer>
-      <Item>DKU FESTIVAL</Item>
-    </TitleContainer>
+    <LogoContainer>
+      <Logo href="#main">DKU FESTIVAL</Logo>
+    </LogoContainer>
     <MenuContainer>
-      <Item href="#red">레드</Item>
-      <Item href="#red2">레드2</Item>
+      <Item href="#main">레드</Item>
+      <Item href="#red2">라인업</Item>
       <Item href="#blue">파랑</Item>
     </MenuContainer>
   </HeaderContainer>

@@ -6,7 +6,10 @@ const globalStyles = createGlobalStyle`
     text-decoration: none;
     padding: 0px;
     margin: 0px;
-    
+   
+   }
+   body{
+       background-color:white
    }
 `;
 

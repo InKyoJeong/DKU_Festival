@@ -9,18 +9,19 @@ const SingerContainer = styled.div`
 `;
 
 const PictureItem = styled.img`
-  width: 230px;
-  height: 230px;
+  width: 210px;
+  height: 210px;
+  margin-right: 30px;
 `;
 
 const Name = styled.div`
   display: flex;
   justify-content: center;
+  background-color: blue;
+  margin-right: 30px;
 `;
 const NameItem = styled.div`
-  /* display: flex;
-  justify-content: center;
-  text-align: center; */
+  font-size: 20px;
 `;
 
 const Detail = ({ name, image }) => (
@@ -33,7 +34,6 @@ const Detail = ({ name, image }) => (
 );
 
 Detail.propTypes = {
-  day: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired
 };
