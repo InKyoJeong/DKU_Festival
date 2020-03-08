@@ -65,7 +65,7 @@ const Title = styled.div`
     height: 50px;
     padding: 5px 0px;
     border-radius: 8px;
-    animation: moveY infinite 3s;
+    /* animation: moveY infinite 3s;
     -webkit-animation: moveY infinite 3s;
     @keyframes moveY {
       0% {
@@ -77,7 +77,7 @@ const Title = styled.div`
       100% {
         transform: rotateY(01turn);
       }
-    }
+    } */
   }
 `;
 const TitleContainer = styled.div`
