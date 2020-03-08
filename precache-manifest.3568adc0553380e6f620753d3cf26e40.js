@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87b7dce9f971076e05b941f097b618c5",
+    "revision": "14c71a86fbf0bd0fcf82d248bb20fc47",
     "url": "/DKU_Festival/index.html"
   },
   {
