@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Cover from "./Cover";
 import LineUp from "./LineUp";
+import Schedule from "./Schedule";
+import Promo from "./Promo";
 
 function Home() {
   return (
@@ -12,6 +14,14 @@ function Home() {
 
       <Container id="line">
         <LineUp />
+      </Container>
+
+      <Container id="schedule">
+        <Schedule />
+      </Container>
+
+      <Container id="promo">
+        <Promo />
       </Container>
     </>
   );
@@ -26,10 +36,15 @@ const Container1 = styled.div`
 `;
 const Container = styled.div`
   height: 100vh;
-  /* background-color: black; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  @media screen and (max-width: 480px) {
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export default Home;

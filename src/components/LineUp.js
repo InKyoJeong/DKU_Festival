@@ -52,22 +52,11 @@ const Title = styled.div`
   font-weight: bold;
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.59);
   color: white;
-  background: -webkit-linear-gradient(
-    90deg,
-    #664ca1,
-    #a381b9,
-    #c3b8df
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    90deg,
-    #664ca1,
-    #a381b9,
-    #c3b8df
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 100%;
-  padding: 0px 100px;
+  background: -webkit-linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
+  background: linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
+  width: 300px;
+  /* padding: 0px 100px; */
   height: 100%;
-
   @media screen and (max-width: 480px) {
     margin: 20px 0px;
     font-size: 23px;
@@ -90,29 +79,22 @@ const Title = styled.div`
     }
   }
 `;
-const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  @media screen and (max-width: 480px) {
-  }
-
-  /* &:not(:last-child) {
-    margin-right: 10px;
-  } */
-`;
 const TitleContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-  /* background-color: red; */
   @media screen and (max-width: 480px) {
-    /* background-color: white; */
   }
 `;
+const Container = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @media screen and (max-width: 480px) {
+  }
+`;
+
 const LineUpContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -136,8 +118,8 @@ const AllContainer = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    height: 90vh;
   }
-  /* justify-content: center; */
 `;
 const LineUp = () => (
   <AllContainer>

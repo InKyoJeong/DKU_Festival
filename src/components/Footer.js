@@ -4,19 +4,20 @@ import styled from "styled-components";
 const FootContainer = styled.div`
   display: flex;
   flex-direction: column;
-  /* background-color: black; */
   height: 50px;
   width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  /* position: fixed; */
-  /* bottom: 0; */
-  /* opacity: 0.5; */
+  opacity: 0.9;
+  background: #e55d87; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6a3093, #e55d87);
+  background: linear-gradient(to right, #6a3093, #e55d87);
 `;
 const Item = styled.div`
-  color: gray;
+  color: #332f3c;
+
   font-size: 13px;
 `;
 const ItemLink = styled.a`
