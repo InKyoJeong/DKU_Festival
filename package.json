@@ -23,7 +23,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://inkyojeong.github.io/dku_festival/",
+  "homepage": "https://inkyojeong.github.io/DKU_Festival/",
   "eslintConfig": {
     "extends": "react-app"
   },
