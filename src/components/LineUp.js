@@ -65,19 +65,6 @@ const Title = styled.div`
     height: 50px;
     padding: 5px 0px;
     border-radius: 8px;
-    /* animation: moveY infinite 3s;
-    -webkit-animation: moveY infinite 3s;
-    @keyframes moveY {
-      0% {
-        transform: rotateY(01turn);
-      }
-      50% {
-        transform: rotateY(0.93turn);
-      }
-      100% {
-        transform: rotateY(01turn);
-      }
-    } */
   }
 `;
 const TitleContainer = styled.div`
