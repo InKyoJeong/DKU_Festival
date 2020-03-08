@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DKU_Festival/static/css/main.3164e3a4.chunk.css",
-    "main.js": "/DKU_Festival/static/js/main.e03a7281.chunk.js",
-    "main.js.map": "/DKU_Festival/static/js/main.e03a7281.chunk.js.map",
+    "main.js": "/DKU_Festival/static/js/main.b4b1acae.chunk.js",
+    "main.js.map": "/DKU_Festival/static/js/main.b4b1acae.chunk.js.map",
     "runtime-main.js": "/DKU_Festival/static/js/runtime-main.ed745f00.js",
     "runtime-main.js.map": "/DKU_Festival/static/js/runtime-main.ed745f00.js.map",
     "static/js/2.2c2545da.chunk.js": "/DKU_Festival/static/js/2.2c2545da.chunk.js",
     "static/js/2.2c2545da.chunk.js.map": "/DKU_Festival/static/js/2.2c2545da.chunk.js.map",
     "index.html": "/DKU_Festival/index.html",
-    "precache-manifest.b1d778291a6fab87b9db4bbd91c4f735.js": "/DKU_Festival/precache-manifest.b1d778291a6fab87b9db4bbd91c4f735.js",
+    "precache-manifest.bc8760904209328c0cd74512a66386a1.js": "/DKU_Festival/precache-manifest.bc8760904209328c0cd74512a66386a1.js",
     "service-worker.js": "/DKU_Festival/service-worker.js",
     "static/css/main.3164e3a4.chunk.css.map": "/DKU_Festival/static/css/main.3164e3a4.chunk.css.map",
     "static/js/2.2c2545da.chunk.js.LICENSE.txt": "/DKU_Festival/static/js/2.2c2545da.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.ed745f00.js",
     "static/js/2.2c2545da.chunk.js",
     "static/css/main.3164e3a4.chunk.css",
-    "static/js/main.e03a7281.chunk.js"
+    "static/js/main.b4b1acae.chunk.js"
   ]
 }
