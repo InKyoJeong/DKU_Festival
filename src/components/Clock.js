@@ -12,6 +12,7 @@ class Clock extends React.Component {
 
   count = toDate => {
     const now = new Date();
+
     let gap = toDate.getTime() - now.getTime();
     if (gap < 0) {
       clearInterval(this.interValSet);
@@ -45,7 +46,7 @@ class Clock extends React.Component {
     }
   };
   componentDidMount() {
-    const until = new Date("2020-5-10");
+    const until = new Date("2020/05/10");
     this.interValSet = setInterval(() => {
       this.count(until);
     }, 1000);

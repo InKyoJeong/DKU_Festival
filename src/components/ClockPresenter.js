@@ -6,7 +6,7 @@ const ClockPresenter = ({ days, hours, minutes, seconds, progress }) => (
   <ClockContainer>
     <FestaTitle>Dankook Festival</FestaTitle>
     <DaysContainer>
-      <Days>D-Day {days}</Days>
+      <Days>D-{days}</Days>
     </DaysContainer>
     <TimeContainer>
       <Hours>{hours < 10 ? `0${hours}` : hours}:</Hours>
