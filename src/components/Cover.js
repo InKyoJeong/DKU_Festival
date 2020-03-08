@@ -48,18 +48,13 @@ const Background = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0) 50%,
-        rgba(255, 225, 255, 0.4)
-      ),
-      url(${bg});
+    background-image: url(${bg});
     /* background-position: center bottom; */
     width: 100%;
     height: 200px;
-
+    /* 
     position: absolute;
-    bottom: 0px;
+    bottom: 0px; */
   }
 `;
 
