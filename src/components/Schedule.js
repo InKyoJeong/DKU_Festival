@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { DAY1 } from "../data/ScheduleData";
+import { DAY1, MINI_GROUND } from "../data/ScheduleData";
 
 function Schedule() {
   return (
@@ -9,10 +9,26 @@ function Schedule() {
         <Title>일정</Title>
       </TitleContainer>
       <DayContainer>
-        <Day>5/10</Day>
+        <Day>5/11 (월)</Day>
         <ContentContainer>
+          <InfoContainer>
+            <Info>대운동장 특설무대 운영시간표</Info>
+          </InfoContainer>
           <Content>
             {DAY1.map(data => (
+              <S key={data.id}>
+                <ST>{data.time}</ST>
+                <SText>{data.content}</SText>
+              </S>
+            ))}
+          </Content>
+        </ContentContainer>
+        <ContentContainer>
+          <InfoContainer>
+            <Info>학생회관 소공연장</Info>
+          </InfoContainer>
+          <Content>
+            {MINI_GROUND.map(data => (
               <S key={data.id}>
                 <ST>{data.time}</ST>
                 <SText>{data.content}</SText>
@@ -29,8 +45,20 @@ const DayContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 2px solid red;
 `;
-const Day = styled.div``;
+const InfoContainer = styled.div`
+  background-color: yellow;
+`;
+const Info = styled.div`
+  /* background-color: yellow; */
+`;
+const Day = styled.div`
+  font-size: 60px;
+  @media screen and (max-width: 480px) {
+    font-size: 30px;
+  }
+`;
 const S = styled.div`
   display: flex;
 `;
@@ -39,16 +67,19 @@ const ST = styled.div`
 `;
 const SText = styled.div``;
 const Content = styled.div`
-  /* display: flex; */
+  border: 2px solid blue;
+  padding: 5px 5px;
 `;
 const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding-left: 100px; */
-  /* width: 900px; */
+  padding: 10px 0px;
+  font-size: 45px;
+
   @media screen and (max-width: 480px) {
+    font-size: 25px;
     padding-left: 0px;
   }
   /* background-color: red; */

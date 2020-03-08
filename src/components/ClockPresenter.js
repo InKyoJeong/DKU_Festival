@@ -25,8 +25,8 @@ const FestaTitle = styled.div`
   font-size: 100px;
   color: white;
   opacity: 0.9;
-  animation: moving infinite 4s;
-  -webkit-animation: moving infinite 4s;
+  animation: moving infinite 3s;
+  -webkit-animation: moving infinite 3s;
   @keyframes moving {
     0% {
       -webkit-transform: rotate(0deg);

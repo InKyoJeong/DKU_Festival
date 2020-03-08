@@ -46,7 +46,7 @@ class Clock extends React.Component {
     }
   };
   componentDidMount() {
-    const until = new Date("2020/05/10");
+    const until = new Date("2020/05/11");
     this.interValSet = setInterval(() => {
       this.count(until);
     }, 1000);

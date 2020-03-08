@@ -116,21 +116,21 @@ const LineUp = () => (
     </TitleContainer>
     <LineUpContainer>
       <DetailContainer>
-        <Day>5/10</Day>
+        <Day>5/11</Day>
         <Container>
           <LineUpDetail name="태연" image={TT} />
           <LineUpDetail name="아이유" image={IU} />
         </Container>
       </DetailContainer>
       <DetailContainer>
-        <Day>5/11</Day>
+        <Day>5/12</Day>
         <Container>
           <LineUpDetail name="여자친구" image={GF} />
           <LineUpDetail name="현아" image={HA} />
         </Container>
       </DetailContainer>
       <DetailContainer>
-        <Day>5/12</Day>
+        <Day>5/13</Day>
         <Container>
           <LineUpDetail name="셋째날가수" image={TT} />
           <LineUpDetail name="셋째날가수2" image={TT} />

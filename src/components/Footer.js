@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const FootContainer = styled.div`
   display: flex;
-  flex-direction: column;
-  height: 50px;
+  /* flex-direction: row; */
+  height: 80px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -14,12 +14,15 @@ const FootContainer = styled.div`
   background: #e55d87; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #6a3093, #e55d87);
   background: linear-gradient(to right, #6a3093, #e55d87);
+  @media screen and (max-width: 480px) {
+    height: 60px;
+  }
 `;
 const Item = styled.div`
   color: #332f3c;
-
   font-size: 13px;
 `;
+
 const ItemLink = styled.a`
   text-decoration: none;
   color: black;
@@ -31,7 +34,8 @@ export default () => (
   <FootContainer>
     <Item>
       Copyright © {new Date().getFullYear()},
-      <ItemLink href="https://github.com/InKyoJeong">InKyo Jeong</ItemLink>
+      <ItemLink href="https://github.com/InKyoJeong">InKyo Jeong.</ItemLink> All
+      Rights Reserved.
     </Item>
   </FootContainer>
 );
