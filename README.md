@@ -26,7 +26,7 @@ $ npm i gh-pages
 
 ## Deploy
 
-## Structure
+Github Page
 
 ## LICENSE
 

@@ -7,113 +7,12 @@ import GF from "../assets/images/gf.png";
 import HA from "../assets/images/ha.jpg";
 import IU from "../assets/images/iu.jpg";
 
-const DetailContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  &:not(:last-child) {
-    padding-bottom: 20px;
-  }
-  @media screen and (max-width: 480px) {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    &:not(:last-child) {
-      margin-bottom: 20px;
-    }
-  }
-`;
-
-const Day = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 50px;
-  margin-right: 3rem;
-  padding: 10px 10px;
-  font-weight: bold;
-
-  @media screen and (max-width: 480px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin-right: 0;
-    margin-bottom: 5px;
-    padding: 5px 0px;
-  }
-`;
-const Title = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 33px;
-  font-weight: bold;
-  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.59);
-  color: white;
-  background: -webkit-linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
-  background: linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
-  width: 300px;
-  /* padding: 0px 100px; */
-  height: 100%;
-  z-index: 1;
-  @media screen and (max-width: 480px) {
-    margin: 20px 0px;
-    font-size: 23px;
-    width: 50%;
-    height: 50px;
-    padding: 5px 0px;
-    border-radius: 8px;
-  }
-`;
-const TitleContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  @media screen and (max-width: 480px) {
-  }
-`;
-const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  @media screen and (max-width: 480px) {
-  }
-`;
-
-const LineUpContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-left: 100px;
-  @media screen and (max-width: 480px) {
-    padding-left: 0px;
-  }
-`;
-const AllContainer = styled.div`
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  @media screen and (max-width: 480px) {
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
-  }
-  @media screen and (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
-  }
-`;
 const LineUp = () => (
   <AllContainer>
     <TitleContainer>
       <Title>대동제 라인업</Title>
     </TitleContainer>
+
     <LineUpContainer>
       <DetailContainer>
         <Day>5/11</Day>
@@ -137,12 +36,111 @@ const LineUp = () => (
           <LineUpDetail name="셋째날가수2" image={TT} />
         </Container>
         {/* <Container>
-        <Detail name="셋째날가수2" image={TT} />
-        <Detail name="셋째날가수2" image={TT} />
-      </Container>  만약 4명이상이면 Container로 묶어서 내리기*/}
+          <Detail name="셋째날가수2" image={TT} />
+          <Detail name="셋째날가수2" image={TT} />
+        </Container>  만약 4명이상이면 Container로 묶어서 내리기*/}
       </DetailContainer>
     </LineUpContainer>
   </AllContainer>
 );
+
+const DetailContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  &:not(:last-child) {
+    padding-bottom: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+`;
+
+const Day = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  margin-right: 3rem;
+  padding: 10px 10px;
+  font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 0;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+  }
+`;
+const Title = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 33px;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.59);
+  color: white;
+  background: -webkit-linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
+  background: linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
+  width: 300px;
+  /* padding: 0px 100px; */
+  height: 100%;
+  z-index: 1;
+  @media screen and (max-width: 768px) {
+    margin: 20px 0px;
+    font-size: 23px;
+    width: 50%;
+    height: 50px;
+    padding: 5px 0px;
+    border-radius: 8px;
+  }
+`;
+const TitleContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+  }
+`;
+const Container = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @media screen and (max-width: 768px) {
+  }
+`;
+
+const LineUpContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* padding-left: 100px; */
+  @media screen and (max-width: 768px) {
+    /* padding-left: 0px; */
+  }
+`;
+const AllContainer = styled.div`
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+  }
+`;
 
 export default LineUp;

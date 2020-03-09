@@ -37,10 +37,6 @@ const Container1 = styled.div`
 const Container = styled.div`
   height: 100vh;
   display: flex;
-  @media screen and (max-width: 480px) {
-    justify-content: center;
-    align-items: center;
-  }
   @media screen and (max-width: 768px) {
     justify-content: center;
     align-items: center;

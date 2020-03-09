@@ -39,7 +39,7 @@ const Title = styled.div`
   background: linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
   width: 300px;
   height: 100%;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     margin: 20px 0px;
     font-size: 23px;
     width: 50%;

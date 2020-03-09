@@ -14,7 +14,7 @@ const FootContainer = styled.div`
   background: #e55d87; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #6a3093, #e55d87);
   background: linear-gradient(to right, #6a3093, #e55d87);
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     height: 60px;
   }
 `;

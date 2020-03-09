@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const ClockPresenter = ({ days, hours, minutes, seconds, progress }) => (
+const ClockPresenter = ({ days, hours, minutes, seconds }) => (
   <ClockContainer>
     <FestaTitle>Dankook Festival</FestaTitle>
     <DaysContainer>

@@ -11,7 +11,7 @@ const SingerContainer = styled.div`
   &:not(:last-child) {
     margin-right: 30px;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     justify-content: center;
 
     &:not(:last-child) {
@@ -29,7 +29,7 @@ const PictureItem = styled.img`
   border-top-left-radius: 3.5px;
   border-top-right-radius: 3.5px;
   vertical-align: middle;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     width: 125px;
     height: 125px;
   }
@@ -45,12 +45,12 @@ const Name = styled.div`
   background: linear-gradient(-180deg, #4b3a58, #8674a8, #a87fca);
   padding: 4px 0px;
   color: white;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
   }
 `;
 const NameItem = styled.div`
   font-size: 20px;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 15px;
   }
 `;
