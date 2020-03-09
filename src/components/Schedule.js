@@ -48,7 +48,7 @@ const Schedule = () => (
           {MINI_GROUND.map(data => (
             <S key={data.id}>
               <ST>{data.time}</ST>
-              <SC>{data.content}</SC>
+              <SC2>{data.content}</SC2>
             </S>
           ))}
         </Content>
@@ -147,25 +147,24 @@ const ST = styled.div`
   padding-right: 10px;
   /* border: 1px solid #c3b8df; */
 `;
+const SC2 = styled.div``;
 const SC = styled.div`
   border-bottom: 3px solid #c3b8df;
-  animation: moving infinite 3s;
-  -webkit-animation: moving infinite 3s;
+  animation: moving infinite 4s;
+  -webkit-animation: moving infinite 4s;
   @keyframes moving {
     0% {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
     }
-
     40% {
-      -webkit-transform: rotate(-2deg);
-      transform: rotate(-2deg);
+      -webkit-transform: rotate(-3deg);
+      transform: rotate(-3deg);
     }
     60% {
-      -webkit-transform: rotate(2deg);
-      transform: rotate(2deg);
+      -webkit-transform: rotate(3deg);
+      transform: rotate(3deg);
     }
-
     100% {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -173,11 +172,7 @@ const SC = styled.div`
   }
 `;
 const Content = styled.div`
-  /* border: 2px solid blue; */
-
-  /* border-radius: 10px; */
   padding: 15px 20px;
-  font-style: italic;
   @media screen and (max-width: 768px) {
     padding: 6px 12px;
   }
