@@ -20,7 +20,7 @@ const Schedule = ({
     </ButtonContainer>
 
     <DayContainer>
-      <Day>5 / {changeDay + 11}</Day>
+      <Day>{`5/${changeDay + 11}`}</Day>
       {/* <DayOfWeek>{changeDayOfWeek}</DayOfWeek> */}
       <ContentContainer>
         <InfoContainer>
@@ -55,7 +55,12 @@ const Schedule = ({
               {DAY3.map(data => (
                 <S key={data.id}>
                   <ST>{data.time}</ST>
-                  <SC>{data.content}</SC>
+                  <SC>
+                    {data.content}
+                    {/* {data.content > 7
+                      ? `${data.content(0, 7)}...`
+                      : data.content} */}
+                  </SC>
                 </S>
               ))}
             </>
@@ -108,7 +113,7 @@ const ButtonContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  margin: 15% 0%;
+  margin: 15% 1%;
   @media screen and (max-width: 768px) {
     flex-direction: row;
     margin: 0% 30%;
