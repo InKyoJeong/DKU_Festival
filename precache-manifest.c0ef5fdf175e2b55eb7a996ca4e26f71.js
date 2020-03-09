@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ebf455cfd0f07e08593a047c2f30a724",
+    "revision": "aa3bce1b111016e0af7cbbae8d7c22c8",
     "url": "/DKU_Festival/index.html"
   },
   {
-    "revision": "e3d8fd84a34987ed4bd0",
-    "url": "/DKU_Festival/static/css/main.3a4eb3a7.chunk.css"
+    "revision": "aaeb3477953a09753d9f",
+    "url": "/DKU_Festival/static/css/main.7982a6dc.chunk.css"
   },
   {
-    "revision": "b76e3b823099196e3df7",
-    "url": "/DKU_Festival/static/js/2.2c2545da.chunk.js"
+    "revision": "8002d455cdeca310edaa",
+    "url": "/DKU_Festival/static/js/2.23ab4125.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/DKU_Festival/static/js/2.2c2545da.chunk.js.LICENSE.txt"
+    "url": "/DKU_Festival/static/js/2.23ab4125.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3d8fd84a34987ed4bd0",
-    "url": "/DKU_Festival/static/js/main.0f7a00dc.chunk.js"
+    "revision": "aaeb3477953a09753d9f",
+    "url": "/DKU_Festival/static/js/main.04ef00f0.chunk.js"
   },
   {
     "revision": "f40d9d50eaf8eb567731",
