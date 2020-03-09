@@ -1,21 +1,21 @@
 import React from "react";
 import styled from "styled-components";
-import { DAY1, MINI_GROUND } from "../data/ScheduleData";
-import "./Schedule-font.css";
+import { DAY1, DAY2, DAY3, MINI_GROUND } from "../data/ScheduleData";
+import PropTypes from "prop-types";
 
-const Schedule = () => (
+const Schedule = ({ changeDay, prevButton, nextButton }) => (
   <AllContainer id="schedule">
     <TitleContainer>
       <Title>일정</Title>
     </TitleContainer>
 
     <ButtonContainer>
-      <Button></Button>
-      <Button></Button>
+      <Button onClick={prevButton}></Button>
+      <Button onClick={nextButton}></Button>
     </ButtonContainer>
 
     <DayContainer>
-      <Day>5/11 (월)</Day>
+      <Day>5 / {changeDay + 11}</Day>
       <ContentContainer>
         <InfoContainer>
           <Info>
@@ -26,12 +26,34 @@ const Schedule = () => (
           </Info>
         </InfoContainer>
         <Content>
-          {DAY1.map(data => (
-            <S key={data.id}>
-              <ST>{data.time}</ST>
-              <SC>{data.content}</SC>
-            </S>
-          ))}
+          {changeDay === 0 ? (
+            <>
+              {DAY1.map(data => (
+                <S key={data.id}>
+                  <ST>{data.time}</ST>
+                  <SC>{data.content}</SC>
+                </S>
+              ))}
+            </>
+          ) : changeDay === 1 ? (
+            <>
+              {DAY2.map(data => (
+                <S key={data.id}>
+                  <ST>{data.time}</ST>
+                  <SC>{data.content}</SC>
+                </S>
+              ))}
+            </>
+          ) : (
+            <>
+              {DAY3.map(data => (
+                <S key={data.id}>
+                  <ST>{data.time}</ST>
+                  <SC>{data.content}</SC>
+                </S>
+              ))}
+            </>
+          )}
         </Content>
       </ContentContainer>
 
@@ -103,7 +125,7 @@ const Extra = styled.div`
   display: flex;
   font-size: 30px;
   font-style: italic;
-  padding-top: 10px;
+  padding: 10px 10px 0 10px;
   @media screen and (max-width: 768px) {
     font-size: 23px;
   }
@@ -118,7 +140,7 @@ const DayContainer = styled.div`
   margin: auto auto 0 auto;
   padding: 5px 30px;
   box-shadow: 3px 3px 5px rgba(52, 30, 107, 0.7),
-    inset 1px 1px 5px rgba(52, 30, 107, 0.7);
+    inset 1px 1px 5px rgba(52, 30, 107, 0.3);
   @media screen and (max-width: 768px) {
     margin: 20px auto;
     padding: 10px;
@@ -150,29 +172,25 @@ const ST = styled.div`
 const SC2 = styled.div``;
 const SC = styled.div`
   border-bottom: 3px solid #c3b8df;
-  animation: moving infinite 4s;
-  -webkit-animation: moving infinite 4s;
-  @keyframes moving {
+  animation: changeY infinite 2s;
+  -webkit-animation: changeY infinite 2s;
+  @keyframes changeY {
     0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
+      -webkit-transform: scaleY(0.9);
+      transform: scaleY(0.9);
     }
-    40% {
-      -webkit-transform: rotate(-3deg);
-      transform: rotate(-3deg);
-    }
-    60% {
-      -webkit-transform: rotate(3deg);
-      transform: rotate(3deg);
+    50% {
+      -webkit-transform: scaleY(0.7);
+      transform: scaleY(0.7);
     }
     100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
+      -webkit-transform: scaleY(0.9);
+      transform: scaleY(0.9);
     }
   }
 `;
 const Content = styled.div`
-  padding: 15px 20px;
+  padding: 10px 20px;
   @media screen and (max-width: 768px) {
     padding: 6px 12px;
   }
@@ -225,7 +243,7 @@ const AllContainer = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: row;
-
+  /* z-index: -999; */
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -237,5 +255,11 @@ const AllContainer = styled.div`
     height: 90vh;
   }
 `;
+
+Schedule.propTypes = {
+  changeDay: PropTypes.number.isRequired,
+  prevButton: PropTypes.func.isRequired,
+  nextButton: PropTypes.func.isRequired
+};
 
 export default Schedule;

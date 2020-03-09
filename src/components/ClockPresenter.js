@@ -37,12 +37,12 @@ const FestaTitle = styled.div`
       transform: rotate(0deg);
     }
     40% {
-      -webkit-transform: rotate(-5deg);
-      transform: rotate(-5deg);
+      -webkit-transform: rotate(-8deg);
+      transform: rotate(-8deg);
     }
     60% {
-      -webkit-transform: rotate(5deg);
-      transform: rotate(5deg);
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg);
     }
     80% {
       -webkit-transform: rotate(0deg);

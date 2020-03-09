@@ -1,20 +1,18 @@
 import React, { Fragment } from "react";
 import GlobalStyles from "./Global";
-import Home from "./components/Home";
-import Header from "./components/Header";
-import Fire from "./Fire";
+// import Main from "./components/Main";
+// import Header from "./components/Header";
+// import Fire from "./Fire";
 import "./App.css";
 
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+import Router from "./components/Router";
 
 function App() {
   return (
     <Fragment>
+      <Router />
       <GlobalStyles />
-      <Fire />
-      <Header />
-      <Home />
-      <Footer />
     </Fragment>
   );
 }

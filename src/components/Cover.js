@@ -2,6 +2,7 @@ import React from "react";
 import bg from "../assets/festa2.jpeg";
 import styled from "styled-components";
 import Clock from "./Clock";
+
 function Cover() {
   return (
     <>
@@ -11,12 +12,6 @@ function Cover() {
     </>
   );
 }
-// const GG = styled.div`
-//   color: red;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// `;
 
 const Background = styled.div`
   background-image: linear-gradient(
