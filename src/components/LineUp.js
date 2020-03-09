@@ -47,21 +47,17 @@ const LineUp = () => (
 const DetailContainer = styled.div`
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   &:not(:last-child) {
     padding-bottom: 20px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     &:not(:last-child) {
       margin-bottom: 20px;
     }
   }
 `;
-
 const Day = styled.div`
   display: flex;
   flex-direction: column;
@@ -70,7 +66,6 @@ const Day = styled.div`
   margin-right: 3rem;
   padding: 10px 10px;
   font-weight: bold;
-
   @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
@@ -92,7 +87,6 @@ const Title = styled.div`
   background: -webkit-linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
   background: linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
   width: 300px;
-  /* padding: 0px 100px; */
   height: 100%;
   z-index: 1;
   @media screen and (max-width: 768px) {
@@ -119,17 +113,12 @@ const Container = styled.div`
   @media screen and (max-width: 768px) {
   }
 `;
-
 const LineUpContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
-  /* padding-left: 100px; */
-  @media screen and (max-width: 768px) {
-    /* padding-left: 0px; */
-  }
 `;
 const AllContainer = styled.div`
   height: 100vh;

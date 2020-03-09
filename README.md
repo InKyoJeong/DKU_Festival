@@ -13,6 +13,12 @@ React.js를 이용한 단국대학교 축제 안내 사이트입니다.
 - [ ] Media Screen : Mobile,Tablet,PC
 - [ ] npm i react-scroll-up-button
 
+## Todo Update before festival begin
+
+- [ ] Change Day
+- [ ] Change Day of the Week in Data
+- [ ] Change Schedule in Data
+
 ## Install
 
 ```

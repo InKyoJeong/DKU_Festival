@@ -3,7 +3,12 @@ import styled from "styled-components";
 import { DAY1, DAY2, DAY3, MINI_GROUND } from "../data/ScheduleData";
 import PropTypes from "prop-types";
 
-const Schedule = ({ changeDay, prevButton, nextButton }) => (
+const Schedule = ({
+  changeDay,
+  // changeDayOfWeek,
+  prevButton,
+  nextButton
+}) => (
   <AllContainer id="schedule">
     <TitleContainer>
       <Title>일정</Title>
@@ -16,6 +21,7 @@ const Schedule = ({ changeDay, prevButton, nextButton }) => (
 
     <DayContainer>
       <Day>5 / {changeDay + 11}</Day>
+      {/* <DayOfWeek>{changeDayOfWeek}</DayOfWeek> */}
       <ContentContainer>
         <InfoContainer>
           <Info>
@@ -95,13 +101,17 @@ const Schedule = ({ changeDay, prevButton, nextButton }) => (
     </DayContainer>
   </AllContainer>
 );
+// const DayOfWeek = styled.span``;
 const ButtonContainer = styled.div`
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
+  margin: 15% 0%;
   @media screen and (max-width: 768px) {
     flex-direction: row;
+    margin: 0% 30%;
   }
 `;
 const Button = styled.button`
@@ -109,7 +119,8 @@ const Button = styled.button`
   background-color: red;
   width: 120px;
   height: 120px;
-  /* border: none; */
+  border: none;
+
   &:hover {
     background-color: black;
     transition: ease-in-out 0.2s;
@@ -123,7 +134,7 @@ const Button = styled.button`
 const Extra = styled.div`
   flex-direction: column;
   display: flex;
-  font-size: 30px;
+  font-size: 23px;
   font-style: italic;
   padding: 10px 10px 0 10px;
   @media screen and (max-width: 768px) {
@@ -132,16 +143,17 @@ const Extra = styled.div`
 `;
 const DayContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   /* border: 1px solid #c3b8df; */
   border-radius: 10px;
-  margin: auto auto 0 auto;
+  margin: 10% auto;
   padding: 5px 30px;
   box-shadow: 3px 3px 5px rgba(52, 30, 107, 0.7),
     inset 1px 1px 5px rgba(52, 30, 107, 0.3);
   @media screen and (max-width: 768px) {
+    flex-direction: column;
     margin: 20px auto;
     padding: 10px;
   }
@@ -150,11 +162,9 @@ const InfoContainer = styled.div`
   color: #82589f;
   text-shadow: 2px 2px 2px gray;
 `;
-const Info = styled.div`
-  /* background-color: yellow; */
-`;
+const Info = styled.div``;
 const Day = styled.div`
-  font-size: 60px;
+  font-size: 36px;
   @media screen and (max-width: 768px) {
     font-size: 30px;
   }
@@ -191,6 +201,7 @@ const SC = styled.div`
 `;
 const Content = styled.div`
   padding: 10px 20px;
+
   @media screen and (max-width: 768px) {
     padding: 6px 12px;
   }
@@ -200,8 +211,8 @@ const ContentContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px 40px;
-  font-size: 35px;
+  /* padding: 10px 40px; */
+  font-size: 30px;
   @media screen and (max-width: 768px) {
     font-size: 24px;
 
@@ -243,7 +254,7 @@ const AllContainer = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: row;
-  /* z-index: -999; */
+
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;

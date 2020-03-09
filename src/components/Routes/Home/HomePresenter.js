@@ -7,7 +7,12 @@ import LineUp from "../../LineUp";
 import Schedule from "../../Schedule";
 import Promo from "../../Promo";
 
-const HomePresenter = ({ changeDay, prevButton, nextButton }) => (
+const HomePresenter = ({
+  changeDay,
+  changeDayOfWeek,
+  prevButton,
+  nextButton
+}) => (
   <>
     <Container1 id="main">
       <Cover />
@@ -22,6 +27,7 @@ const HomePresenter = ({ changeDay, prevButton, nextButton }) => (
         changeDay={changeDay}
         prevButton={prevButton}
         nextButton={nextButton}
+        changeDayOfWeek={changeDayOfWeek}
       />
     </Container>
 
@@ -49,6 +55,7 @@ const Container = styled.div`
 
 HomePresenter.propTypes = {
   changeDay: PropTypes.number.isRequired,
+  changeDayOfWeek: PropTypes.string,
   prevButton: PropTypes.func.isRequired,
   nextButton: PropTypes.func.isRequired
 };
