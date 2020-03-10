@@ -1,5 +1,4 @@
 .schedule-button {
-  /* background-color: red; */
   width: 120px !important;
   height: 120px !important;
   border: none;
@@ -12,6 +11,8 @@
   }
 }
 .schedule-button:hover {
-  color: purple;
+  color: rgb(90, 25, 128);
   transition: ease-in-out 0.2s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }

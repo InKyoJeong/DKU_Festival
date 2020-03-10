@@ -2,10 +2,13 @@ import React from "react";
 import LineUpDetail from "./LineUpDetail";
 import styled from "styled-components";
 
-import TT from "../assets/images/tt.jpeg";
-import GF from "../assets/images/gf.png";
-import HA from "../assets/images/ha.jpg";
-import IU from "../assets/images/iu.jpg";
+import MKH from "../assets/images/mkh.png";
+import KJ from "../assets/images/kj.png";
+import YH from "../assets/images/yh.png";
+import DA from "../assets/images/da.png";
+import BB from "../assets/images/bb.png";
+import LP from "../assets/images/lp.png";
+import LOVE from "../assets/images/love.png";
 
 const LineUp = () => (
   <AllContainer>
@@ -17,23 +20,23 @@ const LineUp = () => (
       <DetailContainer>
         <Day>5/11</Day>
         <Container>
-          <LineUpDetail name="태연" image={TT} />
-          <LineUpDetail name="아이유" image={IU} />
+          <LineUpDetail name="권진아" image={KJ} />
+          <LineUpDetail name="윤하" image={YH} />
         </Container>
       </DetailContainer>
       <DetailContainer>
         <Day>5/12</Day>
         <Container>
-          <LineUpDetail name="여자친구" image={GF} />
-          <LineUpDetail name="현아" image={HA} />
+          <LineUpDetail name="민경훈" image={MKH} />
+          <LineUpDetail name="다비치" image={DA} />
+          <LineUpDetail name="러블리즈" image={LOVE} />
         </Container>
       </DetailContainer>
       <DetailContainer>
         <Day>5/13</Day>
         <Container>
-          <LineUpDetail name="셋째날가수" image={TT} />
-          <LineUpDetail name="셋째날가수2" image={TT} />
-          <LineUpDetail name="셋째날가수2" image={TT} />
+          <LineUpDetail name="백예린" image={BB} />
+          <LineUpDetail name="루피" image={LP} />
         </Container>
         {/* <Container>
           <Detail name="셋째날가수2" image={TT} />
