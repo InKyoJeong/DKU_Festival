@@ -133,7 +133,7 @@ const ButtonContainer = styled.div`
   flex-direction: column;
   justify-content: space-around;
   margin: 15% 1%;
-  width: 120px;
+  width: 8%;
   height: 500px;
   @media screen and (max-width: 768px) {
     flex-direction: row;
@@ -164,7 +164,7 @@ const DayContainer = styled.div`
   /* border: 1px solid #c3b8df; */
   border-radius: 10px;
   margin: 10% auto;
-  padding: 5px 30px;
+  padding: 5px 10px;
   box-shadow: 3px 3px 5px rgba(52, 30, 107, 0.7),
     inset 1px 1px 5px rgba(52, 30, 107, 0.3);
   @media screen and (max-width: 768px) {

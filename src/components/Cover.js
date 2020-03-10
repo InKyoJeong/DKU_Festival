@@ -47,9 +47,9 @@ const Background = styled.div`
     /* background-position: center bottom; */
     width: 100%;
     height: 200px;
-    /* 
+
     position: absolute;
-    bottom: 0px; */
+    bottom: 0px;
   }
 `;
 
