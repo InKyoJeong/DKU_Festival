@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/DKU_Festival/static/css/main.c346aef6.chunk.css",
-    "main.js": "/DKU_Festival/static/js/main.ec107c51.chunk.js",
-    "main.js.map": "/DKU_Festival/static/js/main.ec107c51.chunk.js.map",
+    "main.css": "/DKU_Festival/static/css/main.cfffa234.chunk.css",
+    "main.js": "/DKU_Festival/static/js/main.b58133db.chunk.js",
+    "main.js.map": "/DKU_Festival/static/js/main.b58133db.chunk.js.map",
     "runtime-main.js": "/DKU_Festival/static/js/runtime-main.ed745f00.js",
     "runtime-main.js.map": "/DKU_Festival/static/js/runtime-main.ed745f00.js.map",
-    "static/js/2.21a1c66d.chunk.js": "/DKU_Festival/static/js/2.21a1c66d.chunk.js",
-    "static/js/2.21a1c66d.chunk.js.map": "/DKU_Festival/static/js/2.21a1c66d.chunk.js.map",
+    "static/js/2.01e6e045.chunk.js": "/DKU_Festival/static/js/2.01e6e045.chunk.js",
+    "static/js/2.01e6e045.chunk.js.map": "/DKU_Festival/static/js/2.01e6e045.chunk.js.map",
     "index.html": "/DKU_Festival/index.html",
-    "precache-manifest.b50ec3478d015caa4e795e4ccc2a681c.js": "/DKU_Festival/precache-manifest.b50ec3478d015caa4e795e4ccc2a681c.js",
+    "precache-manifest.191206ccc320b633a4ca41cd2d475ca3.js": "/DKU_Festival/precache-manifest.191206ccc320b633a4ca41cd2d475ca3.js",
     "service-worker.js": "/DKU_Festival/service-worker.js",
-    "static/css/main.c346aef6.chunk.css.map": "/DKU_Festival/static/css/main.c346aef6.chunk.css.map",
-    "static/js/2.21a1c66d.chunk.js.LICENSE.txt": "/DKU_Festival/static/js/2.21a1c66d.chunk.js.LICENSE.txt",
+    "static/css/main.cfffa234.chunk.css.map": "/DKU_Festival/static/css/main.cfffa234.chunk.css.map",
+    "static/js/2.01e6e045.chunk.js.LICENSE.txt": "/DKU_Festival/static/js/2.01e6e045.chunk.js.LICENSE.txt",
+    "static/media/bb.png": "/DKU_Festival/static/media/bb.2fd97504.png",
+    "static/media/da.png": "/DKU_Festival/static/media/da.064de4b0.png",
     "static/media/festa2.jpeg": "/DKU_Festival/static/media/festa2.4bcbcf74.jpeg",
-    "static/media/gf.png": "/DKU_Festival/static/media/gf.df613892.png",
-    "static/media/ha.jpg": "/DKU_Festival/static/media/ha.8812f471.jpg",
-    "static/media/iu.jpg": "/DKU_Festival/static/media/iu.bdd5aa1e.jpg",
-    "static/media/tt.jpeg": "/DKU_Festival/static/media/tt.d48aa4e0.jpeg"
+    "static/media/kj.png": "/DKU_Festival/static/media/kj.30e4972a.png",
+    "static/media/love.png": "/DKU_Festival/static/media/love.f7435d33.png",
+    "static/media/lp.png": "/DKU_Festival/static/media/lp.9b2d6b1d.png",
+    "static/media/mkh.png": "/DKU_Festival/static/media/mkh.3ff251df.png",
+    "static/media/yh.png": "/DKU_Festival/static/media/yh.b0930453.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ed745f00.js",
-    "static/js/2.21a1c66d.chunk.js",
-    "static/css/main.c346aef6.chunk.css",
-    "static/js/main.ec107c51.chunk.js"
+    "static/js/2.01e6e045.chunk.js",
+    "static/css/main.cfffa234.chunk.css",
+    "static/js/main.b58133db.chunk.js"
   ]
 }
