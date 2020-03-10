@@ -56,7 +56,7 @@ const IconContainer = styled.div`
 export default () => (
   <FootContainer>
     <Item>
-      Copyright © {new Date().getFullYear()},<ItemLink>InKyo Jeong.</ItemLink>{" "}
+      Copyright © {new Date().getFullYear()},<ItemLink>InKyo Jeong</ItemLink>{" "}
       All Rights Reserved.
     </Item>
     <IconContainer>

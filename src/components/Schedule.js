@@ -129,7 +129,6 @@ const Schedule = ({
 // const DayOfWeek = styled.span``;
 const ButtonContainer = styled.div`
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
@@ -139,7 +138,7 @@ const ButtonContainer = styled.div`
   @media screen and (max-width: 768px) {
     flex-direction: row;
     margin: 0% 25%;
-    width: 200px;
+    width: 50%;
     height: 60px;
   }
 `;
