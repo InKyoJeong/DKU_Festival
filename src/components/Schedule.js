@@ -24,19 +24,20 @@ const Schedule = ({
     </TitleContainer>
 
     <ButtonContainer>
-      <Button onClick={prevButton}>
-        <FontAwesomeIcon
-          icon={"chevron-circle-left"}
-          className="schedule-button"
-        />
-      </Button>
-      <Button onClick={nextButton}>
-        {" "}
-        <FontAwesomeIcon
-          icon={"chevron-circle-right"}
-          className="schedule-button"
-        />
-      </Button>
+      {/* <Button onClick={prevButton}> */}
+      <FontAwesomeIcon
+        icon={"chevron-circle-left"}
+        className="schedule-button"
+        onClick={prevButton}
+      />
+      {/* </Button> */}
+      {/* <Button onClick={nextButton}> */}
+      <FontAwesomeIcon
+        icon={"chevron-circle-right"}
+        className="schedule-button"
+        onClick={nextButton}
+      />
+      {/* </Button> */}
     </ButtonContainer>
 
     <DayContainer>
@@ -142,9 +143,9 @@ const ButtonContainer = styled.div`
     height: 60px;
   }
 `;
-const Button = styled.button`
-  border: none;
-`;
+// const Button = styled.button`
+//   border: none;
+// `;
 
 const Extra = styled.div`
   flex-direction: column;

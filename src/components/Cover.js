@@ -30,12 +30,7 @@ const Background = styled.div`
   height: 100vh;
 
   @media screen and (max-width: 768px) {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0) 50%,
-        rgba(255, 225, 255, 0.4)
-      ),
-      url(${bg});
+    background-image: url(${bg});
     width: 100%;
     height: 400px;
     position: absolute;
