@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/DKU_Festival/static/css/main.c346aef6.chunk.css",
-    "main.js": "/DKU_Festival/static/js/main.cce7072e.chunk.js",
-    "main.js.map": "/DKU_Festival/static/js/main.cce7072e.chunk.js.map",
+    "main.js": "/DKU_Festival/static/js/main.ec107c51.chunk.js",
+    "main.js.map": "/DKU_Festival/static/js/main.ec107c51.chunk.js.map",
     "runtime-main.js": "/DKU_Festival/static/js/runtime-main.ed745f00.js",
     "runtime-main.js.map": "/DKU_Festival/static/js/runtime-main.ed745f00.js.map",
-    "static/js/2.dcf08791.chunk.js": "/DKU_Festival/static/js/2.dcf08791.chunk.js",
-    "static/js/2.dcf08791.chunk.js.map": "/DKU_Festival/static/js/2.dcf08791.chunk.js.map",
+    "static/js/2.21a1c66d.chunk.js": "/DKU_Festival/static/js/2.21a1c66d.chunk.js",
+    "static/js/2.21a1c66d.chunk.js.map": "/DKU_Festival/static/js/2.21a1c66d.chunk.js.map",
     "index.html": "/DKU_Festival/index.html",
-    "precache-manifest.2faac5c44a4b8fae1767a7146ceb01bf.js": "/DKU_Festival/precache-manifest.2faac5c44a4b8fae1767a7146ceb01bf.js",
+    "precache-manifest.b50ec3478d015caa4e795e4ccc2a681c.js": "/DKU_Festival/precache-manifest.b50ec3478d015caa4e795e4ccc2a681c.js",
     "service-worker.js": "/DKU_Festival/service-worker.js",
     "static/css/main.c346aef6.chunk.css.map": "/DKU_Festival/static/css/main.c346aef6.chunk.css.map",
-    "static/js/2.dcf08791.chunk.js.LICENSE.txt": "/DKU_Festival/static/js/2.dcf08791.chunk.js.LICENSE.txt",
+    "static/js/2.21a1c66d.chunk.js.LICENSE.txt": "/DKU_Festival/static/js/2.21a1c66d.chunk.js.LICENSE.txt",
     "static/media/festa2.jpeg": "/DKU_Festival/static/media/festa2.4bcbcf74.jpeg",
     "static/media/gf.png": "/DKU_Festival/static/media/gf.df613892.png",
     "static/media/ha.jpg": "/DKU_Festival/static/media/ha.8812f471.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ed745f00.js",
-    "static/js/2.dcf08791.chunk.js",
+    "static/js/2.21a1c66d.chunk.js",
     "static/css/main.c346aef6.chunk.css",
-    "static/js/main.cce7072e.chunk.js"
+    "static/js/main.ec107c51.chunk.js"
   ]
 }
