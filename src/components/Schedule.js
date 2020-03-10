@@ -2,6 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import { DAY1, DAY2, DAY3, MINI_GROUND } from "../data/ScheduleData";
 import PropTypes from "prop-types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import {
+  faCaretSquareLeft,
+  faCaretSquareRight
+} from "@fortawesome/free-solid-svg-icons";
+import "./schedule.css";
+library.add(fab, faCaretSquareLeft, faCaretSquareRight);
 
 const Schedule = ({
   changeDay,
@@ -15,8 +24,19 @@ const Schedule = ({
     </TitleContainer>
 
     <ButtonContainer>
-      <Button onClick={prevButton}></Button>
-      <Button onClick={nextButton}></Button>
+      <Button onClick={prevButton}>
+        <FontAwesomeIcon
+          icon={"caret-square-left"}
+          className="schedule-button"
+        />
+      </Button>
+      <Button onClick={nextButton}>
+        {" "}
+        <FontAwesomeIcon
+          icon={"caret-square-right"}
+          className="schedule-button"
+        />
+      </Button>
     </ButtonContainer>
 
     <DayContainer>
@@ -114,26 +134,17 @@ const ButtonContainer = styled.div`
   flex-direction: column;
   justify-content: space-around;
   margin: 15% 1%;
+  width: 120px;
+  height: 500px;
   @media screen and (max-width: 768px) {
     flex-direction: row;
-    margin: 0% 30%;
+    margin: 0% 25%;
+    width: 200px;
+    height: 60px;
   }
 `;
 const Button = styled.button`
-  /* font-size: 40px; */
-  background-color: red;
-  width: 120px;
-  height: 120px;
   border: none;
-
-  &:hover {
-    background-color: black;
-    transition: ease-in-out 0.2s;
-  }
-  @media screen and (max-width: 768px) {
-    width: 50px;
-    height: 50px;
-  }
 `;
 
 const Extra = styled.div`

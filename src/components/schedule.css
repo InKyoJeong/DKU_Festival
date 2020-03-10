@@ -1,0 +1,17 @@
+.schedule-button {
+  /* background-color: red; */
+  width: 120px !important;
+  height: 120px !important;
+  border: none;
+  color: #b29aca;
+}
+@media screen and (max-width: 768px) {
+  .schedule-button {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+.schedule-button:hover {
+  color: purple;
+  transition: ease-in-out 0.2s;
+}
