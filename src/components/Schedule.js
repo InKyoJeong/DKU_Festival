@@ -6,11 +6,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
-  faCaretSquareLeft,
-  faCaretSquareRight
+  faChevronCircleRight,
+  faChevronCircleLeft
 } from "@fortawesome/free-solid-svg-icons";
 import "./schedule.css";
-library.add(fab, faCaretSquareLeft, faCaretSquareRight);
+library.add(fab, faChevronCircleLeft, faChevronCircleRight);
 
 const Schedule = ({
   changeDay,
@@ -26,14 +26,14 @@ const Schedule = ({
     <ButtonContainer>
       <Button onClick={prevButton}>
         <FontAwesomeIcon
-          icon={"caret-square-left"}
+          icon={"chevron-circle-left"}
           className="schedule-button"
         />
       </Button>
       <Button onClick={nextButton}>
         {" "}
         <FontAwesomeIcon
-          icon={"caret-square-right"}
+          icon={"chevron-circle-right"}
           className="schedule-button"
         />
       </Button>
