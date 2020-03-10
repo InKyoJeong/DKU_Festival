@@ -8,9 +8,9 @@ React.js를 이용한 단국대학교 축제 안내 사이트입니다.
 
 - [x] D-Day Clock
 - [x] Line Up
-- [ ] Schedule
+- [x] Schedule
 - [ ] Party Promotion
-- [ ] Media Screen : Mobile,Tablet,PC
+- [x] Media Screen : Mobile, PC
 - [ ] npm i react-scroll-up-button
 
 ## Todo Update before festival begin
@@ -22,11 +22,12 @@ React.js를 이용한 단국대학교 축제 안내 사이트입니다.
 ## Install
 
 ```
-$ npm i prop-types
-$ npm i react-router-dom
-$ npm i styled-components
-$ npm i react-anchor-link-smooth-scroll
-$ npm i gh-pages
+$ prop-types
+$ react-router-dom
+$ styled-components
+$ react-anchor-link-smooth-scroll
+$ gh-pages
+$ @fortawesome
 ```
 
 ## Deploy

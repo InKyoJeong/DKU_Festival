@@ -97,10 +97,10 @@ const Schedule = ({
           </Info>
         </InfoContainer>
         <Extra>
-          <SE>바자회 : 대운동장 중앙부스 옆</SE>
-          <SE>푸드트럭 : 학생회관 1층 입구 주변</SE>
-          <SE>출발 드림팀 : 에어 바운스 설치(대운동장)</SE>
-          <SE>오락기 및 인형뽑기 : (중앙부스)</SE>
+          <SE>* 바자회 : 대운동장 중앙부스 옆</SE>
+          <SE>* 푸드트럭 : 학생회관 1층 입구 주변</SE>
+          <SE>* 출발 드림팀 : 에어 바운스 설치(대운동장)</SE>
+          <SE>* 오락기 및 인형뽑기 : (중앙부스)</SE>
         </Extra>
       </ContentContainer>
     </DayContainer>
