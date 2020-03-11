@@ -7,6 +7,8 @@ const SingerContainer = styled.div`
   border-radius: 3.5px;
   box-shadow: 3px 4px 6px -1px rgba(0, 0, 0, 0.5),
     0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  /* width: 30%;
+  height: 30%; */
   &:not(:last-child) {
     margin-right: 30px;
   }
@@ -45,6 +47,7 @@ const Name = styled.div`
   padding: 4px 0px;
   color: white;
   @media screen and (max-width: 768px) {
+    width: 7rem;
   }
 `;
 const NameItem = styled.div`
