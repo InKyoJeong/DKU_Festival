@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DKU_Festival/static/css/main.fa7470de.chunk.css",
-    "main.js": "/DKU_Festival/static/js/main.80ce5ed8.chunk.js",
-    "main.js.map": "/DKU_Festival/static/js/main.80ce5ed8.chunk.js.map",
+    "main.css": "/DKU_Festival/static/css/main.680f8850.chunk.css",
+    "main.js": "/DKU_Festival/static/js/main.cb367952.chunk.js",
+    "main.js.map": "/DKU_Festival/static/js/main.cb367952.chunk.js.map",
     "runtime-main.js": "/DKU_Festival/static/js/runtime-main.ed745f00.js",
     "runtime-main.js.map": "/DKU_Festival/static/js/runtime-main.ed745f00.js.map",
     "static/js/2.42e64b38.chunk.js": "/DKU_Festival/static/js/2.42e64b38.chunk.js",
     "static/js/2.42e64b38.chunk.js.map": "/DKU_Festival/static/js/2.42e64b38.chunk.js.map",
     "index.html": "/DKU_Festival/index.html",
-    "precache-manifest.81b09f31df9294d0298e56e4b7f4cbab.js": "/DKU_Festival/precache-manifest.81b09f31df9294d0298e56e4b7f4cbab.js",
+    "precache-manifest.edc8fd15481233788bee20d8fa5e6dee.js": "/DKU_Festival/precache-manifest.edc8fd15481233788bee20d8fa5e6dee.js",
     "service-worker.js": "/DKU_Festival/service-worker.js",
-    "static/css/main.fa7470de.chunk.css.map": "/DKU_Festival/static/css/main.fa7470de.chunk.css.map",
+    "static/css/main.680f8850.chunk.css.map": "/DKU_Festival/static/css/main.680f8850.chunk.css.map",
     "static/js/2.42e64b38.chunk.js.LICENSE.txt": "/DKU_Festival/static/js/2.42e64b38.chunk.js.LICENSE.txt",
     "static/media/bb.png": "/DKU_Festival/static/media/bb.2fd97504.png",
     "static/media/da.png": "/DKU_Festival/static/media/da.064de4b0.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.ed745f00.js",
     "static/js/2.42e64b38.chunk.js",
-    "static/css/main.fa7470de.chunk.css",
-    "static/js/main.80ce5ed8.chunk.js"
+    "static/css/main.680f8850.chunk.css",
+    "static/js/main.cb367952.chunk.js"
   ]
 }
