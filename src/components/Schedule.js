@@ -141,7 +141,7 @@ const ButtonContainer = styled.div`
   height: 50%;
   @media screen and (max-width: 768px) {
     flex-direction: row;
-    margin: 0% auto;
+    margin: 1% auto;
     width: 50%;
     height: 7%;
   }
@@ -237,6 +237,7 @@ const ContentContainer = styled.div`
     font-size: 1.3rem;
     padding: 3%;
     margin: auto;
+    /* height:200px; */
   }
 `;
 const Title = styled.div`

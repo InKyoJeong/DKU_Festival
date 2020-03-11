@@ -58,7 +58,7 @@ const HomePresenter = ({
 // `;
 const Container = styled.div`
   height: 100vh;
-  width: 100%;
+  /* width: 100%; */
   justify-content: center;
   align-items: center;
   display: flex;
