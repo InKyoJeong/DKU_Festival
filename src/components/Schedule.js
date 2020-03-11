@@ -172,6 +172,7 @@ const DayContainer = styled.div`
     flex-direction: column;
     margin: 10px auto;
     padding: 10px;
+    height: 75%;
   }
 `;
 const InfoContainer = styled.div`
@@ -184,7 +185,7 @@ const Day = styled.div`
   height: 5%; */
   font-size: 2rem;
   @media screen and (max-width: 768px) {
-    font-size: 1.8rem;
+    height: 30px;
   }
 `;
 const S = styled.div`
@@ -218,10 +219,10 @@ const SC = styled.div`
   }
 `;
 const Content = styled.div`
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 
   @media screen and (max-width: 768px) {
-    padding: 6px 12px;
+    /* padding: 6px 12px; */
   }
 `;
 const ContentContainer = styled.div`
@@ -235,9 +236,8 @@ const ContentContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     font-size: 1.3rem;
-    padding: 3%;
+    padding: 1%;
     margin: auto;
-    /* height:200px; */
   }
 `;
 const Title = styled.div`
