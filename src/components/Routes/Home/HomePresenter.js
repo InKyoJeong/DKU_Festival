@@ -6,6 +6,7 @@ import Clock from "../../Clock";
 import LineUp from "../../LineUp";
 import Schedule from "../../Schedule";
 import Promo from "../../Promo";
+// import Cover from "../../Cover";
 
 const HomePresenter = ({
   changeDay,
@@ -14,9 +15,13 @@ const HomePresenter = ({
   nextButton
 }) => (
   <>
-    <Container1 id="main">
+    <Container id="main" style={{ backgroundColor: `black` }}>
       <Clock />
-    </Container1>
+    </Container>
+
+    {/* <Container2>
+        <Cover />
+      </Container2> */}
 
     <Container id="line">
       <LineUp />
@@ -36,19 +41,28 @@ const HomePresenter = ({
     </Container>
   </>
 );
-
-const Container1 = styled.div`
-  height: 100vh;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+// const Container2 = styled.div`
+//   height: 30vh;
+//   width: 100vw;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `;
+// const Container1 = styled.div`
+//   height: 100vh;
+//   width: 100vw;
+//   background-color: black;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `;
 const Container = styled.div`
   height: 100vh;
+  width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
 `;
 
 HomePresenter.propTypes = {

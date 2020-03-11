@@ -39,26 +39,14 @@ const Title = styled.div`
   background: linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
   width: 300px;
   height: 100%;
+  z-index: 1;
   @media screen and (max-width: 768px) {
-    margin: 20px 0px;
+    margin: 5% auto;
     font-size: 23px;
     width: 50%;
     height: 50px;
     padding: 5px 0px;
     border-radius: 8px;
-    /* animation: moveY infinite 3s;
-    -webkit-animation: moveY infinite 3s;
-    @keyframes moveY {
-      0% {
-        transform: rotateY(01turn);
-      }
-      50% {
-        transform: rotateY(0.93turn);
-      }
-      100% {
-        transform: rotateY(01turn);
-      }
-    } */
   }
 `;
 const TitleContainer = styled.div`
@@ -66,7 +54,8 @@ const TitleContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
+    padding-top: 10%;
   }
 `;
 const AllContainer = styled.div`
@@ -75,15 +64,9 @@ const AllContainer = styled.div`
   display: flex;
   flex-direction: row;
 
-  @media screen and (max-width: 480px) {
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
-  }
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    height: 90vh;
   }
 `;
 

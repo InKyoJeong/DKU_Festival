@@ -57,7 +57,7 @@ const DetailContainer = styled.div`
     display: flex;
     flex-direction: column;
     &:not(:last-child) {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   }
 `;
@@ -65,7 +65,7 @@ const Day = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 50px;
+  font-size: 3rem;
   margin-right: 3rem;
   padding: 10px 10px;
   font-weight: bold;
@@ -73,10 +73,9 @@ const Day = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    margin-right: 0;
-    margin-bottom: 5px;
-    padding: 5px 0px;
+    font-size: 2rem;
+    margin: auto auto 5px auto;
+    padding: auto;
   }
 `;
 const Title = styled.div`
@@ -93,7 +92,7 @@ const Title = styled.div`
   height: 100%;
   z-index: 1;
   @media screen and (max-width: 768px) {
-    margin: 20px 0px;
+    margin: 5% auto;
     font-size: 23px;
     width: 50%;
     height: 50px;
@@ -107,12 +106,14 @@ const TitleContainer = styled.div`
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 768px) {
+    padding-top: 10%;
   }
 `;
 const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 
   @media screen and (max-width: 768px) {
   }
@@ -122,7 +123,7 @@ const LineUpContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  /* margin: auto; */
   width: 100vw;
 `;
 const AllContainer = styled.div`
@@ -133,7 +134,6 @@ const AllContainer = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    height: 90vh;
   }
 `;
 

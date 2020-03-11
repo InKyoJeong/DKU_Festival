@@ -55,8 +55,8 @@ const FestaTitle = styled.div`
     }
   }
 
-  @media screen and (max-width: 480px) {
-    font-size: 45px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
     margin-bottom: 40px;
   }
 `;
@@ -67,7 +67,7 @@ const DaysContainer = styled.div`
 
   /* color: #ffffff; */
   /* text-shadow: 1px 5px 5px #aba8a8; */
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 20px;
   }
 `;
@@ -94,13 +94,12 @@ const TimeContainer = styled.div`
 
   border-radius: 10px;
   text-shadow: 5px 5px 5px black;
-  width: 750px;
+  width: 80%;
   font-size: 70px;
   margin-top: 20px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 30px;
-    width: 77.5%;
     text-shadow: 2px 2px 2px black;
     margin-top: 10px;
   }

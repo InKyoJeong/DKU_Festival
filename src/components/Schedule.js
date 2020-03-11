@@ -136,12 +136,12 @@ const ButtonContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  margin: 15% 1%;
+  margin: auto 1%;
   width: 8%;
-  height: 500px;
+  height: 50%;
   @media screen and (max-width: 768px) {
     flex-direction: row;
-    margin: 0% 25%;
+    margin: 0% auto;
     width: 50%;
     height: 60px;
   }
@@ -157,7 +157,7 @@ const Extra = styled.div`
   font-style: italic;
   padding: 10px 10px 0 10px;
   @media screen and (max-width: 768px) {
-    font-size: 23px;
+    font-size: 1.2rem;
   }
 `;
 const DayContainer = styled.div`
@@ -165,7 +165,6 @@ const DayContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid #c3b8df; */
   border-radius: 10px;
   margin: 10% auto;
   padding: 5px 10px;
@@ -174,7 +173,7 @@ const DayContainer = styled.div`
     inset 1px 1px 5px rgba(52, 30, 107, 0.3);
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px;
   }
 `;
@@ -233,12 +232,11 @@ const ContentContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding: 10px 40px; */
-  font-size: 30px;
+  padding: 0px;
+  font-size: 1.8rem;
   @media screen and (max-width: 768px) {
-    font-size: 24px;
-
-    padding: 10px 0px;
+    font-size: 1.3rem;
+    padding: 3%;
   }
 `;
 const Title = styled.div`
@@ -253,8 +251,9 @@ const Title = styled.div`
   background: linear-gradient(90deg, #664ca1, #a381b9, #c3b8df);
   width: 300px;
   height: 100%;
+  z-index: 1;
   @media screen and (max-width: 768px) {
-    margin: 20px 0px;
+    margin: 5% auto;
     font-size: 23px;
     width: 50%;
     height: 50px;
@@ -269,6 +268,7 @@ const TitleContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 768px) {
+    padding-top: 10%;
   }
 `;
 const AllContainer = styled.div`
@@ -280,12 +280,6 @@ const AllContainer = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    height: 90vh;
-  }
-  @media screen and (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
   }
 `;
 
