@@ -268,18 +268,19 @@ const TitleContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 768px) {
-    padding-top: 10%;
+    /* padding-top: 10%; */
   }
 `;
 const AllContainer = styled.div`
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
 
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    height: 85%;
   }
 `;
 

@@ -110,6 +110,8 @@ const ClockContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin: auto;
+  height: 100%;
+  /* width: 100%; */
 `;
 const Days = styled.h1`
   color: white;
