@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DKU_Festival/precache-manifest.31a1dfa20c03560fb48ef52e459912c5.js"
+  "/DKU_Festival/precache-manifest.81b09f31df9294d0298e56e4b7f4cbab.js"
 );
 
 self.addEventListener('message', (event) => {
