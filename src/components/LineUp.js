@@ -74,7 +74,7 @@ const Day = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    margin: auto auto 5px auto;
+    margin: auto;
     padding: auto;
   }
 `;

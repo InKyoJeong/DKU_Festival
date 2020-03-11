@@ -143,12 +143,9 @@ const ButtonContainer = styled.div`
     flex-direction: row;
     margin: 0% auto;
     width: 50%;
-    height: 60px;
+    height: 7%;
   }
 `;
-// const Button = styled.button`
-//   border: none;
-// `;
 
 const Extra = styled.div`
   flex-direction: column;
@@ -183,11 +180,11 @@ const InfoContainer = styled.div`
 `;
 const Info = styled.div``;
 const Day = styled.div`
-  width: 95px;
-  height: 38px;
-  font-size: 36px;
+  /* width: 100px;
+  height: 5%; */
+  font-size: 2rem;
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 1.8rem;
   }
 `;
 const S = styled.div`
@@ -234,9 +231,12 @@ const ContentContainer = styled.div`
   justify-content: center;
   padding: 0px;
   font-size: 1.8rem;
+  /* margin: auto; */
+
   @media screen and (max-width: 768px) {
     font-size: 1.3rem;
     padding: 3%;
+    margin: auto;
   }
 `;
 const Title = styled.div`
