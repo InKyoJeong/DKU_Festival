@@ -113,6 +113,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+
   @media screen and (max-width: 768px) {
   }
 `;
@@ -122,6 +123,7 @@ const LineUpContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: auto;
+  width: 100vw;
 `;
 const AllContainer = styled.div`
   height: 100vh;

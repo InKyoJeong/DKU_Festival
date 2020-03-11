@@ -4,13 +4,13 @@ import { DAY1, DAY2, DAY3, MINI_GROUND } from "../data/ScheduleData";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
   faChevronCircleRight,
-  faChevronCircleLeft
+  faChevronCircleLeft,
+  faClock
 } from "@fortawesome/free-solid-svg-icons";
 import "./schedule.css";
-library.add(fab, faChevronCircleLeft, faChevronCircleRight);
+library.add(faChevronCircleLeft, faChevronCircleRight, faClock);
 
 const Schedule = ({
   changeDay,
@@ -41,7 +41,10 @@ const Schedule = ({
     </ButtonContainer>
 
     <DayContainer>
-      <Day>{`5/${changeDay + 11}`}</Day>
+      <Day>
+        <FontAwesomeIcon icon={"clock"} />
+        {` 5/${changeDay + 11}`}
+      </Day>
       {/* <DayOfWeek>{changeDayOfWeek}</DayOfWeek> */}
       <ContentContainer>
         <InfoContainer>
@@ -166,6 +169,7 @@ const DayContainer = styled.div`
   border-radius: 10px;
   margin: 10% auto;
   padding: 5px 10px;
+  /* width: 100vw; */
   box-shadow: 3px 3px 5px rgba(52, 30, 107, 0.7),
     inset 1px 1px 5px rgba(52, 30, 107, 0.3);
   @media screen and (max-width: 768px) {
@@ -180,6 +184,8 @@ const InfoContainer = styled.div`
 `;
 const Info = styled.div``;
 const Day = styled.div`
+  width: 95px;
+  height: 38px;
   font-size: 36px;
   @media screen and (max-width: 768px) {
     font-size: 30px;

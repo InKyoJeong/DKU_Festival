@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
-import Cover from "../../Cover";
+import Clock from "../../Clock";
 import LineUp from "../../LineUp";
 import Schedule from "../../Schedule";
 import Promo from "../../Promo";
@@ -15,7 +15,7 @@ const HomePresenter = ({
 }) => (
   <>
     <Container1 id="main">
-      <Cover />
+      <Clock />
     </Container1>
 
     <Container id="line">
@@ -46,11 +46,9 @@ const Container1 = styled.div`
 `;
 const Container = styled.div`
   height: 100vh;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  @media screen and (max-width: 768px) {
-    justify-content: center;
-    align-items: center;
-  }
 `;
 
 HomePresenter.propTypes = {

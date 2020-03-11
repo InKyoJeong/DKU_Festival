@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faInfoCircle);
+library.add(faGithub, faInstagram, faInfoCircle);
 
 const FootContainer = styled.div`
   display: flex;

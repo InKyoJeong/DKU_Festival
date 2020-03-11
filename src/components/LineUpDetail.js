@@ -5,7 +5,6 @@ import styled from "styled-components";
 const SingerContainer = styled.div`
   justify-content: center;
   border-radius: 3.5px;
-
   box-shadow: 3px 4px 6px -1px rgba(0, 0, 0, 0.5),
     0 2px 4px -1px rgba(0, 0, 0, 0.2);
   &:not(:last-child) {
@@ -24,14 +23,14 @@ const PictureContainer = styled.div`
   border-top-right-radius: 3.5px;
 `;
 const PictureItem = styled.img`
-  width: 210px;
-  height: 210px;
+  width: 13em;
+  height: 13em;
   border-top-left-radius: 3.5px;
   border-top-right-radius: 3.5px;
   vertical-align: middle;
   @media screen and (max-width: 768px) {
-    width: 125px;
-    height: 125px;
+    width: 7rem;
+    height: 7rem;
   }
 `;
 

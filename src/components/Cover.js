@@ -14,7 +14,7 @@ function Cover() {
 }
 
 const Background = styled.div`
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0) 50%,
       rgba(255, 225, 255, 0.4)
@@ -39,13 +39,11 @@ const Background = styled.div`
 
   @media screen and (max-width: 480px) {
     background-image: url(${bg});
-    /* background-position: center bottom; */
     width: 100%;
     height: 200px;
-
     position: absolute;
     bottom: 0px;
-  }
+  } */
 `;
 
 export default Cover;

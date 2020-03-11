@@ -22,6 +22,7 @@ const FestaTitle = styled.div`
     #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px,
     2px 2px 2px rgba(156, 70, 206, 0);
   justify-content: center;
+  /* align-items: center; */
   font-size: 100px;
   color: white;
   opacity: 0.9;
@@ -55,7 +56,7 @@ const FestaTitle = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 40px;
   }
 `;
@@ -110,9 +111,9 @@ const ClockContainer = styled.div`
   justify-content: center;
   align-items: center;
   /* background-color: red; */
-  padding-top: 200px;
+  /* padding-top: 200px; */
   font-size: 60px;
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     font-size: 30px;
     padding-top: 20px;
     position: relative;
@@ -122,7 +123,7 @@ const ClockContainer = styled.div`
     padding-top: 0px;
     position: relative;
     top: -180%;
-  }
+  } */
 `;
 const Days = styled.h1`
   color: white;
