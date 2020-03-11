@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/DKU_Festival/static/css/main.cfffa234.chunk.css",
-    "main.js": "/DKU_Festival/static/js/main.86c5c0d7.chunk.js",
-    "main.js.map": "/DKU_Festival/static/js/main.86c5c0d7.chunk.js.map",
+    "main.css": "/DKU_Festival/static/css/main.fa7470de.chunk.css",
+    "main.js": "/DKU_Festival/static/js/main.1ccd58e3.chunk.js",
+    "main.js.map": "/DKU_Festival/static/js/main.1ccd58e3.chunk.js.map",
     "runtime-main.js": "/DKU_Festival/static/js/runtime-main.ed745f00.js",
     "runtime-main.js.map": "/DKU_Festival/static/js/runtime-main.ed745f00.js.map",
-    "static/js/2.01e6e045.chunk.js": "/DKU_Festival/static/js/2.01e6e045.chunk.js",
-    "static/js/2.01e6e045.chunk.js.map": "/DKU_Festival/static/js/2.01e6e045.chunk.js.map",
+    "static/js/2.42e64b38.chunk.js": "/DKU_Festival/static/js/2.42e64b38.chunk.js",
+    "static/js/2.42e64b38.chunk.js.map": "/DKU_Festival/static/js/2.42e64b38.chunk.js.map",
     "index.html": "/DKU_Festival/index.html",
-    "precache-manifest.bc0259302cc8a94e5cf72d78d213d020.js": "/DKU_Festival/precache-manifest.bc0259302cc8a94e5cf72d78d213d020.js",
+    "precache-manifest.31a1dfa20c03560fb48ef52e459912c5.js": "/DKU_Festival/precache-manifest.31a1dfa20c03560fb48ef52e459912c5.js",
     "service-worker.js": "/DKU_Festival/service-worker.js",
-    "static/css/main.cfffa234.chunk.css.map": "/DKU_Festival/static/css/main.cfffa234.chunk.css.map",
-    "static/js/2.01e6e045.chunk.js.LICENSE.txt": "/DKU_Festival/static/js/2.01e6e045.chunk.js.LICENSE.txt",
+    "static/css/main.fa7470de.chunk.css.map": "/DKU_Festival/static/css/main.fa7470de.chunk.css.map",
+    "static/js/2.42e64b38.chunk.js.LICENSE.txt": "/DKU_Festival/static/js/2.42e64b38.chunk.js.LICENSE.txt",
     "static/media/bb.png": "/DKU_Festival/static/media/bb.2fd97504.png",
     "static/media/da.png": "/DKU_Festival/static/media/da.064de4b0.png",
-    "static/media/festa2.jpeg": "/DKU_Festival/static/media/festa2.4bcbcf74.jpeg",
     "static/media/kj.png": "/DKU_Festival/static/media/kj.30e4972a.png",
     "static/media/love.png": "/DKU_Festival/static/media/love.f7435d33.png",
     "static/media/lp.png": "/DKU_Festival/static/media/lp.9b2d6b1d.png",
@@ -23,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ed745f00.js",
-    "static/js/2.01e6e045.chunk.js",
-    "static/css/main.cfffa234.chunk.css",
-    "static/js/main.86c5c0d7.chunk.js"
+    "static/js/2.42e64b38.chunk.js",
+    "static/css/main.fa7470de.chunk.css",
+    "static/js/main.1ccd58e3.chunk.js"
   ]
 }
