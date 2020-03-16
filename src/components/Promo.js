@@ -8,24 +8,61 @@ function Promo() {
         <Title>부스 홍보</Title>
       </TitleContainer>
       <ContentContainer>
-        <Content>ㅏㅏㅏ</Content>
-        <Content>ㅏㅏㅏ</Content>
+        <Content>
+          <ContentImage />
+        </Content>
+        <Content>
+          <ContentImage />
+        </Content>
+        <Content>
+          <ContentImage />
+        </Content>
+        <Content>
+          <ContentImage />
+        </Content>
+        <Content>
+          <ContentImage />
+        </Content>
+        <Content>
+          <ContentImage />
+        </Content>
+        <Content>
+          <ContentImage />
+        </Content>
       </ContentContainer>
     </AllContainer>
   );
 }
-const Content = styled.div``;
-const ContentContainer = styled.div`
+const Content = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding-left: 100px; */
-  /* width: 900px; */
-  @media screen and (max-width: 480px) {
-    padding-left: 0px;
+  flex-direction: row;
+  float: left;
+  /* display: block; */
+  width: 25%;
+  margin: 0;
+  @media screen and (max-width: 768px) {
+    width: 33.3333%;
   }
-  /* background-color: red; */
+  @media screen and (max-width: 480px) {
+    width: 50%;
+  }
+`;
+const ContentImage = styled.img`
+  background-image: url("http://localhost:3000/DKU_Festival/static/media/kj.30e4972a.png");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding-top: 100%;
+  /* display: block; */
+`;
+const ContentContainer = styled.div`
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  display: block;
+  flex-direction: row;
 `;
 const Title = styled.div`
   display: flex;
@@ -63,7 +100,6 @@ const AllContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
-
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;

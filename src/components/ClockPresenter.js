@@ -22,10 +22,9 @@ const FestaTitle = styled.div`
     #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px,
     2px 2px 2px rgba(156, 70, 206, 0);
   justify-content: center;
-  /* align-items: center; */
   font-size: 100px;
   color: white;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   animation: moving infinite 3s;
   -webkit-animation: moving infinite 3s;
   @keyframes moving {
@@ -54,7 +53,6 @@ const FestaTitle = styled.div`
       transform: rotate(0deg);
     }
   }
-
   @media screen and (max-width: 768px) {
     font-size: 40px;
     margin-bottom: 20%;
@@ -64,9 +62,6 @@ const FestaTitle = styled.div`
 const DaysContainer = styled.div`
   display: flex;
   font-size: 40px;
-
-  /* color: #ffffff; */
-  /* text-shadow: 1px 5px 5px #aba8a8; */
   @media screen and (max-width: 768px) {
     font-size: 20px;
   }
@@ -77,7 +72,6 @@ const TimeContainer = styled.div`
   color: #e6e1f3;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid white; */
   background: #355c7d; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -91,7 +85,6 @@ const TimeContainer = styled.div`
     #6c5b7b,
     #355c7d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   border-radius: 10px;
   text-shadow: 5px 5px 5px black;
   width: 93%;
@@ -117,12 +110,8 @@ const Days = styled.h1`
   color: white;
 `;
 const Hours = styled.h1``;
-const Minutes = styled.h1`
-  /* color: white; */
-`;
-const Seconds = styled.h1`
-  /* color: white; */
-`;
+const Minutes = styled.h1``;
+const Seconds = styled.h1``;
 
 ClockPresenter.propTypes = {
   days: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
