@@ -36,6 +36,10 @@ $ fortawesome
 
 Github Page
 
+```
+$ npm run deploy
+```
+
 ## LICENSE
 
 [MIT](https://github.com/InKyoJeong/DKU_Festival/blob/master/LICENSE)
