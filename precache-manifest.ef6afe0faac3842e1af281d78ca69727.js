@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d41312aabef8319120b19751e2d5574b",
+    "revision": "ce5454587883ba58ef57ef06a4105a94",
     "url": "/DKU_Festival/index.html"
   },
   {
-    "revision": "2b16118613b09acb57ce",
+    "revision": "5646b6e65cdc74a19d87",
     "url": "/DKU_Festival/static/css/main.680f8850.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DKU_Festival/static/js/2.370b80ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b16118613b09acb57ce",
-    "url": "/DKU_Festival/static/js/main.3567eb44.chunk.js"
+    "revision": "5646b6e65cdc74a19d87",
+    "url": "/DKU_Festival/static/js/main.2074ad67.chunk.js"
   },
   {
     "revision": "f40d9d50eaf8eb567731",
