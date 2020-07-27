@@ -7,7 +7,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faChevronCircleRight,
   faChevronCircleLeft,
-  faClock
+  faClock,
 } from "@fortawesome/free-solid-svg-icons";
 import "./schedule.css";
 library.add(faChevronCircleLeft, faChevronCircleRight, faClock);
@@ -16,7 +16,7 @@ const Schedule = ({
   changeDay,
   // changeDayOfWeek,
   prevButton,
-  nextButton
+  nextButton,
 }) => (
   <AllContainer id="schedule">
     <TitleContainer>
@@ -43,7 +43,7 @@ const Schedule = ({
     <DayContainer>
       <Day>
         <FontAwesomeIcon icon={"clock"} />
-        {` 5/${changeDay + 11}`}
+        {` 9/${changeDay + 23}`}
       </Day>
       {/* <DayOfWeek>{changeDayOfWeek}</DayOfWeek> */}
       <ContentContainer>
@@ -58,7 +58,7 @@ const Schedule = ({
         <Content>
           {changeDay === 0 ? (
             <>
-              {DAY1.map(data => (
+              {DAY1.map((data) => (
                 <S key={data.id}>
                   <ST>{data.time}</ST>
                   <SC>{data.content}</SC>
@@ -67,7 +67,7 @@ const Schedule = ({
             </>
           ) : changeDay === 1 ? (
             <>
-              {DAY2.map(data => (
+              {DAY2.map((data) => (
                 <S key={data.id}>
                   <ST>{data.time}</ST>
                   <SC>{data.content}</SC>
@@ -76,7 +76,7 @@ const Schedule = ({
             </>
           ) : (
             <>
-              {DAY3.map(data => (
+              {DAY3.map((data) => (
                 <S key={data.id}>
                   <ST>{data.time}</ST>
                   <SC>
@@ -102,7 +102,7 @@ const Schedule = ({
           </Info>
         </InfoContainer>
         <Content>
-          {MINI_GROUND.map(data => (
+          {MINI_GROUND.map((data) => (
             <S key={data.id}>
               <ST>{data.time}</ST>
               <SC2>{data.content}</SC2>
@@ -288,7 +288,7 @@ const AllContainer = styled.div`
 Schedule.propTypes = {
   changeDay: PropTypes.number.isRequired,
   prevButton: PropTypes.func.isRequired,
-  nextButton: PropTypes.func.isRequired
+  nextButton: PropTypes.func.isRequired,
 };
 
 export default Schedule;
