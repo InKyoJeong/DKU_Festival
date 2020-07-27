@@ -9,10 +9,10 @@ React.js를 이용한 단국대학교 축제 안내 사이트입니다.
 - [x] D-Day Clock
 - [x] Line Up
 - [x] Schedule
-- [ ] Party Promotion
+- [x] Booth Promotion
 - [x] Media Screen : Mobile, PC
 - [ ] npm i react-scroll-up-button
-- [ ] Google Analytics
+<!-- - [ ] Google Analytics -->
 
 ## Todo Update before festival begin
 
@@ -20,6 +20,7 @@ React.js를 이용한 단국대학교 축제 안내 사이트입니다.
 - [ ] Change Day of the Week in Data
 - [ ] Singer LineUp image
 - [ ] Change Schedule in Data
+- [ ] Add Booth Name
 
 ## Install
 

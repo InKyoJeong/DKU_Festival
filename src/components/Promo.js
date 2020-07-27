@@ -1,69 +1,38 @@
 import React from "react";
 import styled from "styled-components";
+import Booth from "../assets/images/booth.svg";
 
 function Promo() {
   return (
     <AllContainer id="promo">
       <TitleContainer>
-        <Title>부스 홍보</Title>
+        <Title>부스 안내</Title>
       </TitleContainer>
       <ContentContainer>
         <Content>
-          <ContentImage />
-        </Content>
-        <Content>
-          <ContentImage />
-        </Content>
-        <Content>
-          <ContentImage />
-        </Content>
-        <Content>
-          <ContentImage />
-        </Content>
-        <Content>
-          <ContentImage />
-        </Content>
-        <Content>
-          <ContentImage />
-        </Content>
-        <Content>
-          <ContentImage />
+          <ContentImage src={Booth} />
         </Content>
       </ContentContainer>
     </AllContainer>
   );
 }
+
 const Content = styled.div`
+  display: block;
+  width: 45%;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+`;
+const ContentImage = styled.img``;
+const ContentContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  float: left;
-  /* display: block; */
-  width: 25%;
-  margin: 0;
-  @media screen and (max-width: 768px) {
-    width: 33.3333%;
-  }
-  @media screen and (max-width: 480px) {
-    width: 50%;
-  }
-`;
-const ContentImage = styled.img`
-  background-image: url("http://localhost:3000/DKU_Festival/static/media/kj.30e4972a.png");
-  background-size: cover;
-  background-position: center center;
   width: 100%;
-  padding-top: 100%;
-  /* display: block; */
+  height: 100%;
 `;
-const ContentContainer = styled.div`
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  display: block;
-  flex-direction: row;
-`;
+
 const Title = styled.div`
   display: flex;
   justify-content: center;
