@@ -2,7 +2,13 @@
 
 React.js를 이용한 단국대학교 축제 안내 사이트입니다.
 
-<!-- [작동 사진] -->
+- PC
+
+![pc](./src/assets/intro/pc.gif)
+
+- Mobile / Tablet
+
+![mobile](./src/assets/intro/mobile.gif)
 
 ## Todo
 
@@ -11,7 +17,6 @@ React.js를 이용한 단국대학교 축제 안내 사이트입니다.
 - [x] Schedule
 - [x] Booth Promotion
 - [x] Media Screen : Mobile, PC
-- [ ] npm i react-scroll-up-button
 <!-- - [ ] Google Analytics -->
 
 ## Todo Update before festival begin
