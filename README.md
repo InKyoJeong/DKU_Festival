@@ -1,6 +1,6 @@
 ## 2020 단국대학교 축제 사이트
 
-React.js를 이용한 단국대학교 축제 안내 사이트입니다.
+React를 이용해서 미리 만들어본 단국대학교 축제 안내 사이트입니다.
 
 - PC
 
@@ -41,7 +41,7 @@ $ fortawesome
 
 ## Deploy
 
-Github Page
+**_Github Page_**
 
 ```
 $ npm run deploy
